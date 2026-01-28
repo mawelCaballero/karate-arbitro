@@ -1,0 +1,2224 @@
+{
+  "titulo": "Examen Completo de Arbitraje WKF 2026",
+  "version": "2026",
+  "fuente": "Documentos oficiales: Exámenes Dic 2025 + Reglamento RFEK/WKF 2026",
+  "fecha_preparacion": "28 de enero de 2026",
+  "preparado_por": "Claude para Manuel",
+  "total_preguntas": 314,
+  "estadisticas": {
+    "kumite": {
+      "total": 214,
+      "verdadero": 142,
+      "falso": 72
+    },
+    "kata_parakarate": {
+      "total": 100,
+      "verdadero": 52,
+      "falso": 48
+    },
+    "total_general": {
+      "verdadero": 194,
+      "falso": 120
+    }
+  },
+  "preguntas": [
+    {
+      "numero": 1,
+      "categoria": "kumite",
+      "pregunta": "Se puede llevar voluntariamente cualquier tocado religioso.",
+      "respuesta": true,
+      "aclaracion": "Debe ser aprobado por WKF"
+    },
+    {
+      "numero": 2,
+      "categoria": "kumite",
+      "pregunta": "La chaqueta de Karate-Gi debe tener una longitud superior a tres cuartos del muslo.",
+      "respuesta": false,
+      "aclaracion": "NO MÁS de 3/4 del muslo"
+    },
+    {
+      "numero": 3,
+      "categoria": "kumite",
+      "pregunta": "Los pantalones de Karate-Gi deben cubrir al menos dos tercios de la espinilla.",
+      "respuesta": true,
+      "aclaracion": "Mínimo 2/3"
+    },
+    {
+      "numero": 4,
+      "categoria": "kumite",
+      "pregunta": "La manga de la chaqueta de Karate-Gi no debe ser más larga que el pliegue de la muñeca.",
+      "respuesta": true,
+      "aclaracion": "Y no más corta que mitad del antebrazo"
+    },
+    {
+      "numero": 5,
+      "categoria": "kumite",
+      "pregunta": "Si las mangas de la chaqueta de Karate-Gi de un atleta son demasiado largas y no se puede encontrar un recambio adecuado a tiempo, el árbitro puede permitirle que se las suba por dentro.",
+      "respuesta": true,
+      "aclaracion": "Solución temporal"
+    },
+    {
+      "numero": 6,
+      "categoria": "kumite",
+      "pregunta": "Los atletas pueden llevar una o dos gomas discretas en el pelo. Diademas, cadenas y otros accesorios no están permitidos.",
+      "respuesta": false,
+      "aclaracion": "Pregunta incompleta"
+    },
+    {
+      "numero": 7,
+      "categoria": "kumite",
+      "pregunta": "Para los atletas menores de 14 años, es obligatorio el uso del casco protector homologado por la WKF.",
+      "respuesta": true,
+      "aclaracion": "Obligatorio <14 años"
+    },
+    {
+      "numero": 8,
+      "categoria": "kumite",
+      "pregunta": "En los encuentros Senior, un ligero 'toque de guante' en la garganta no tiene por qué dar lugar a una advertencia o penalización, siempre que no haya lesión real.",
+      "respuesta": true,
+      "aclaracion": "Toque ligero ≠ contacto"
+    },
+    {
+      "numero": 9,
+      "categoria": "kumite",
+      "pregunta": "Una patada en la ingle no dará lugar a penalización siempre que el infractor no lo haya hecho intencionadamente.",
+      "respuesta": false,
+      "aclaracion": "Zona prohibida siempre"
+    },
+    {
+      "numero": 10,
+      "categoria": "kumite",
+      "pregunta": "HANSOKU-CHUI se da cuando el potencial del atleta para ganar ha sido seriamente reducido por la falta del oponente.",
+      "respuesta": true,
+      "aclaracion": "Art. 10 Reglamento"
+    },
+    {
+      "numero": 11,
+      "categoria": "kumite",
+      "pregunta": "HANSOKU se impone por infracciones graves de las normas.",
+      "respuesta": true,
+      "aclaracion": "Descalificación combate"
+    },
+    {
+      "numero": 12,
+      "categoria": "kumite",
+      "pregunta": "SHIKKAKU sólo puede imponerse después de que se haya dado una advertencia.",
+      "respuesta": false,
+      "aclaracion": "Puede ser directo"
+    },
+    {
+      "numero": 13,
+      "categoria": "kumite",
+      "pregunta": "Si un atleta actúa maliciosamente, SHIKKAKU y no HANSOKU es la penalización correcta.",
+      "respuesta": true,
+      "aclaracion": "Malicia = SHIKKAKU"
+    },
+    {
+      "numero": 14,
+      "categoria": "kumite",
+      "pregunta": "Si un atleta actúa maliciosamente, HANSOKU es la penalización correcta.",
+      "respuesta": false,
+      "aclaracion": "Es SHIKKAKU"
+    },
+    {
+      "numero": 15,
+      "categoria": "kumite",
+      "pregunta": "Se puede dar SHIKKAKU a un atleta si se considera que el comportamiento del entrenador o de los miembros no combatientes de la delegación del atleta daña el prestigio y el honor del karate-do.",
+      "respuesta": true,
+      "aclaracion": "Responsabilidad por equipo"
+    },
+    {
+      "numero": 16,
+      "categoria": "kumite",
+      "pregunta": "Si se retira el SENSHU cuando quedan menos de 15 segundos de combate, no se podrá conceder más SENSHU a ninguno de los atletas.",
+      "respuesta": true,
+      "aclaracion": "No más SENSHU en ATO SHIBARAKU"
+    },
+    {
+      "numero": 17,
+      "categoria": "kumite",
+      "pregunta": "Si un atleta al que se le ha concedido SENSHU recibe una advertencia por evitar el combate cuando quedan menos de 15 segundos de combate, el atleta perderá automáticamente esta ventaja.",
+      "respuesta": true,
+      "aclaracion": "Pérdida automática"
+    },
+    {
+      "numero": 18,
+      "categoria": "kumite",
+      "pregunta": "La tolerancia de peso admitida para hombres y mujeres es de 0,5 kg.",
+      "respuesta": false,
+      "aclaracion": "Varía por categoría"
+    },
+    {
+      "numero": 19,
+      "categoria": "kumite",
+      "pregunta": "La misma tolerancia se aplica a los límites superior e inferior de una categoría de peso.",
+      "respuesta": true,
+      "aclaracion": "Uniforme ambos límites"
+    },
+    {
+      "numero": 20,
+      "categoria": "kumite",
+      "pregunta": "Para la competición individual, se aplica el sistema Round-robin o Sistema de todos contra todos.",
+      "respuesta": false,
+      "aclaracion": "Eliminación directa"
+    },
+    {
+      "numero": 21,
+      "categoria": "kata",
+      "pregunta": "Realizar un movimiento de forma incorrecta o incompleta se considera falta.",
+      "respuesta": true,
+      "aclaracion": "Falta técnica"
+    },
+    {
+      "numero": 22,
+      "categoria": "kata",
+      "pregunta": "Perder tiempo, incluyendo marchas prolongadas, saludos excesivos o pausas prolongadas, antes de comenzar la ejecución se considera falta.",
+      "respuesta": true,
+      "aclaracion": "Pérdida de tiempo = falta"
+    },
+    {
+      "numero": 23,
+      "categoria": "kata",
+      "pregunta": "Dar pisotones o palmadas en el pecho, brazos o Karate-gi, son señales audibles.",
+      "respuesta": true,
+      "aclaracion": "Señales audibles"
+    },
+    {
+      "numero": 24,
+      "categoria": "kata",
+      "pregunta": "El uso de señales audibles no se considera falta.",
+      "respuesta": false,
+      "aclaracion": "SÍ es falta"
+    },
+    {
+      "numero": 25,
+      "categoria": "kata",
+      "pregunta": "La exhalación inapropiada no es una señal audible.",
+      "respuesta": false,
+      "aclaracion": "SÍ es señal audible"
+    },
+    {
+      "numero": 26,
+      "categoria": "kata",
+      "pregunta": "No ejecutar completamente un bloqueo o golpear fuera del objetivo se considera falta.",
+      "respuesta": true,
+      "aclaracion": "Ejecución incompleta"
+    },
+    {
+      "numero": 27,
+      "categoria": "kata",
+      "pregunta": "Causar lesión por falta de técnica de control durante el BUNKAI está permitido.",
+      "respuesta": false,
+      "aclaracion": "Descalificación"
+    },
+    {
+      "numero": 28,
+      "categoria": "kata",
+      "pregunta": "Los miembros del equipo deben demostrar competencia en todos los aspectos de la ejecución del Kata, así como sincronización.",
+      "respuesta": true,
+      "aclaracion": "Competencia y sincronización"
+    },
+    {
+      "numero": 29,
+      "categoria": "kata",
+      "pregunta": "Los jueces tendrán en cuenta las órdenes de inicio y finalización de la ejecución a la hora de tomar una decisión.",
+      "respuesta": false,
+      "aclaracion": "Entre saludos"
+    },
+    {
+      "numero": 30,
+      "categoria": "kata",
+      "pregunta": "Es responsabilidad del Presidente de la Federación Nacional asegurarse de que el Kata notificado a la mesa de puntuación es apropiado para esa ronda en particular.",
+      "respuesta": false,
+      "aclaracion": "Responsabilidad competidor"
+    },
+    {
+      "numero": 31,
+      "categoria": "kata",
+      "pregunta": "Al realizar BUNKAI, después de ser derribado, el competidor debe levantarse sobre una rodilla o ponerse de pie antes de 2 segundos.",
+      "respuesta": true,
+      "aclaracion": "2 segundos máximo"
+    },
+    {
+      "numero": 32,
+      "categoria": "kata",
+      "pregunta": "Omitir o añadir movimientos o cambiar sustancialmente la ejecución de su forma original es una descalificación.",
+      "respuesta": true,
+      "aclaracion": "Cambios = descalificación"
+    },
+    {
+      "numero": 33,
+      "categoria": "kata",
+      "pregunta": "La celebración excesiva y las manifestaciones políticas o religiosas se consideran descalificación para kumité, pero no para Kata.",
+      "respuesta": false,
+      "aclaracion": "En AMBOS"
+    },
+    {
+      "numero": 34,
+      "categoria": "kata",
+      "pregunta": "El competidor debe esperar en el tatami el anuncio de la evaluación al final de la actuación.",
+      "respuesta": true,
+      "aclaracion": "Esperar en tatami"
+    },
+    {
+      "numero": 35,
+      "categoria": "kata",
+      "pregunta": "Los competidores pueden seleccionar cualquier Kata de la lista oficial de Katas.",
+      "respuesta": true,
+      "aclaracion": "Lista oficial"
+    },
+    {
+      "numero": 36,
+      "categoria": "kata",
+      "pregunta": "El equipo que no realice el saludo al principio y al final de la actuación será descalificado.",
+      "respuesta": true,
+      "aclaracion": "Saludo obligatorio"
+    },
+    {
+      "numero": 37,
+      "categoria": "kata",
+      "pregunta": "Se permite el uso de armas tradicionales, equipo auxiliar o indumentaria adicional.",
+      "respuesta": false,
+      "aclaracion": "No permitido"
+    },
+    {
+      "numero": 38,
+      "categoria": "kata",
+      "pregunta": "La ejecución en Kata individual se evalúa desde el saludo que inicia el Kata hasta el saludo final.",
+      "respuesta": true,
+      "aclaracion": "Entre saludos"
+    },
+    {
+      "numero": 39,
+      "categoria": "kumite",
+      "pregunta": "YUKO vale un punto.",
+      "respuesta": true,
+      "aclaracion": "1 punto"
+    },
+    {
+      "numero": 40,
+      "categoria": "kumite",
+      "pregunta": "WAZA-ARI vale dos puntos.",
+      "respuesta": true,
+      "aclaracion": "2 puntos"
+    },
+    {
+      "numero": 41,
+      "categoria": "kumite",
+      "pregunta": "IPPON vale tres puntos.",
+      "respuesta": true,
+      "aclaracion": "3 puntos"
+    },
+    {
+      "numero": 42,
+      "categoria": "kumite",
+      "pregunta": "Por patadas CHUDAN se otorga IPPON (3 puntos).",
+      "respuesta": false,
+      "aclaracion": "WAZA-ARI (2 puntos)"
+    },
+    {
+      "numero": 43,
+      "categoria": "kumite",
+      "pregunta": "IPPON (3 puntos) se otorga por patadas JODAN o cualquier técnica contra un oponente cuya parte del cuerpo que no sean los pies esté en contacto con el tatami, con excepción de Hiza-Gamae.",
+      "respuesta": true,
+      "aclaracion": "Criterios IPPON"
+    },
+    {
+      "numero": 44,
+      "categoria": "kumite",
+      "pregunta": "En las competiciones Cadete y Junior, las patadas Jodan están permitidas al más ligero toque ('contacto con piel') siempre que no haya lesión.",
+      "respuesta": true,
+      "aclaracion": "Skin touch permitido"
+    },
+    {
+      "numero": 45,
+      "categoria": "kumite",
+      "pregunta": "En la competición Senior, se permite un toque ligero para las técnicas de puño JODAN y una mayor tolerancia para las patadas JODAN.",
+      "respuesta": true,
+      "aclaracion": "Mayor tolerancia Senior"
+    },
+    {
+      "numero": 46,
+      "categoria": "kumite",
+      "pregunta": "Las técnicas en el área CHUDAN se pueden realizar con impacto controlado sin causar lesión del oponente.",
+      "respuesta": true,
+      "aclaracion": "Impacto controlado OK"
+    },
+    {
+      "numero": 47,
+      "categoria": "kumite",
+      "pregunta": "Las técnicas a la zona JODAN pueden puntuar cuando se detienen a menos de 5 cm del objetivo en patadas y 2 cm en técnicas de mano, pero pueden realizarse con contacto ligero (skin touch), sin impacto, excepto en la zona de la garganta, donde no se permite ningún contacto físico.",
+      "respuesta": true,
+      "aclaracion": "Distancias JODAN"
+    },
+    {
+      "numero": 48,
+      "categoria": "kumite",
+      "pregunta": "Jogai se produce cuando cualquier parte del cuerpo del competidor toca el suelo fuera del área de competición.",
+      "respuesta": true,
+      "aclaracion": "Definición JOGAI"
+    },
+    {
+      "numero": 49,
+      "categoria": "kumite",
+      "pregunta": "Si un competidor es empujado fuera del área por el oponente, se le penaliza por Jogai.",
+      "respuesta": false,
+      "aclaracion": "No si es empujado"
+    },
+    {
+      "numero": 50,
+      "categoria": "kumite",
+      "pregunta": "Mubobi significa ponerse en peligro a sí mismo por culpa o negligencia propia.",
+      "respuesta": true,
+      "aclaracion": "Definición MUBOBI"
+    },
+    {
+      "numero": 51,
+      "categoria": "kumite",
+      "pregunta": "Dar la espalda al oponente puede considerarse Mubobi.",
+      "respuesta": true,
+      "aclaracion": "Ejemplo MUBOBI"
+    },
+    {
+      "numero": 52,
+      "categoria": "kumite",
+      "pregunta": "Retirarse constantemente sin contraatacar puede ser penalizado como evitar el combate.",
+      "respuesta": true,
+      "aclaracion": "Evitar combate"
+    },
+    {
+      "numero": 53,
+      "categoria": "kumite",
+      "pregunta": "Bajar la guardia deliberadamente puede considerarse Mubobi.",
+      "respuesta": true,
+      "aclaracion": "Ponerse en peligro"
+    },
+    {
+      "numero": 54,
+      "categoria": "kumite",
+      "pregunta": "El derecho a ser cabeza de serie desciende a puestos inferiores en ausencia de competidores elegibles para ser cabeza de serie.",
+      "respuesta": true,
+      "aclaracion": "Descenso cabezas serie"
+    },
+    {
+      "numero": 55,
+      "categoria": "kumite",
+      "pregunta": "Hay 6 formas de resolver un empate en el sistema de eliminación Round-robin o Sistema de todos contra todos con 4 competidores.",
+      "respuesta": true,
+      "aclaracion": "6 formas desempate"
+    },
+    {
+      "numero": 56,
+      "categoria": "kata",
+      "pregunta": "La fuerza es uno de los criterios de evaluación.",
+      "respuesta": true,
+      "aclaracion": "Criterio evaluación"
+    },
+    {
+      "numero": 57,
+      "categoria": "kumite",
+      "pregunta": "Hay 6 formas de resolver un empate en un sistema de eliminación con 8 competidores.",
+      "respuesta": true,
+      "aclaracion": "6 formas desempate"
+    },
+    {
+      "numero": 58,
+      "categoria": "kata",
+      "pregunta": "Existen 10 criterios para la evaluación del Kata.",
+      "respuesta": true,
+      "aclaracion": "10 criterios totales"
+    },
+    {
+      "numero": 59,
+      "categoria": "kata",
+      "pregunta": "El movimiento de transición es uno de los criterios de evaluación para la ejecución de Kata, pero no para BUNKAI.",
+      "respuesta": true,
+      "aclaracion": "Solo Kata"
+    },
+    {
+      "numero": 60,
+      "categoria": "kata",
+      "pregunta": "En la ejecución de BUNKAI, los movimientos de transición y el control son parte de la evaluación.",
+      "respuesta": true,
+      "aclaracion": "Transición y control"
+    },
+    {
+      "numero": 61,
+      "categoria": "kata",
+      "pregunta": "Fuerza, Velocidad y Equilibrio son los criterios de evaluación para Kata y BUNKAI.",
+      "respuesta": true,
+      "aclaracion": "Criterios principales"
+    },
+    {
+      "numero": 62,
+      "categoria": "kata",
+      "pregunta": "La inconsciencia simulada durante más de 2 segundos de tiempo en el BUNKAI se considera falta.",
+      "respuesta": false,
+      "aclaracion": "Son 3 segundos"
+    },
+    {
+      "numero": 63,
+      "categoria": "kata",
+      "pregunta": "Al BUNKAI se le debe dar la misma importancia que al Kata en sí.",
+      "respuesta": true,
+      "aclaracion": "Misma importancia"
+    },
+    {
+      "numero": 64,
+      "categoria": "kata",
+      "pregunta": "El saludo excesivo antes de comenzar la ejecución se considera falta.",
+      "respuesta": true,
+      "aclaracion": "Saludo excesivo = falta"
+    },
+    {
+      "numero": 65,
+      "categoria": "kata",
+      "pregunta": "Causar lesión por falta de técnica de control durante el BUNKAI es una descalificación.",
+      "respuesta": true,
+      "aclaracion": "Falta control = descalificación"
+    },
+    {
+      "numero": 66,
+      "categoria": "kata",
+      "pregunta": "No anunciar el Kata, no se considera descalificación.",
+      "respuesta": false,
+      "aclaracion": "Es falta"
+    },
+    {
+      "numero": 67,
+      "categoria": "kata",
+      "pregunta": "Ejecutar el Kata incorrecto o anunciar el Kata incorrecto conlleva la descalificación.",
+      "respuesta": true,
+      "aclaracion": "Kata incorrecto = descalificación"
+    },
+    {
+      "numero": 68,
+      "categoria": "kata",
+      "pregunta": "Dar pisotones o palmadas en el pecho, brazos o Karategui, será tenido en cuenta por los jueces a la hora de tomar una decisión.",
+      "respuesta": true,
+      "aclaracion": "Tenido en cuenta"
+    },
+    {
+      "numero": 69,
+      "categoria": "kata",
+      "pregunta": "Un competidor no será descalificado si hace una pausa clara o se detiene en la ejecución durante varios segundos.",
+      "respuesta": false,
+      "aclaracion": "Sí descalificación"
+    },
+    {
+      "numero": 70,
+      "categoria": "kata",
+      "pregunta": "Al BUNKAI no se le debe dar la misma importancia que al Kata en sí.",
+      "respuesta": false,
+      "aclaracion": "Misma importancia"
+    },
+    {
+      "numero": 71,
+      "categoria": "kata",
+      "pregunta": "El Kata debe comenzar de cara a los jueces.",
+      "respuesta": true,
+      "aclaracion": "De cara a jueces"
+    },
+    {
+      "numero": 72,
+      "categoria": "kata",
+      "pregunta": "El uso de indicaciones audibles de cualquier otra persona, incluyendo otros miembros del equipo, se considera falta.",
+      "respuesta": true,
+      "aclaracion": "Indicaciones = falta"
+    },
+    {
+      "numero": 73,
+      "categoria": "kata",
+      "pregunta": "Si el cinturón del competidor se cae durante la ejecución del Kata, el competidor será descalificado.",
+      "respuesta": false,
+      "aclaracion": "No descalificación"
+    },
+    {
+      "numero": 74,
+      "categoria": "kata",
+      "pregunta": "Es responsabilidad del entrenador o competidor notificar el nombre y el número del Kata a la mesa de puntuación antes de cada ronda.",
+      "respuesta": true,
+      "aclaracion": "Responsabilidad notificar"
+    },
+    {
+      "numero": 75,
+      "categoria": "kata",
+      "pregunta": "El número de jueces por panel puede reducirse a cinco para cualquier competición.",
+      "respuesta": false,
+      "aclaracion": "Solo para no-ranking WKF"
+    },
+    {
+      "numero": 76,
+      "categoria": "kata",
+      "pregunta": "Un Kata realizado previamente puede repetirse sólo si se utiliza como desempate.",
+      "respuesta": false,
+      "aclaracion": "Puede repetirse"
+    },
+    {
+      "numero": 77,
+      "categoria": "kata",
+      "pregunta": "El pantalón de Karategi podrá ser ligeramente más corto de forma que sólo cubra la mitad de la espinilla.",
+      "respuesta": false,
+      "aclaracion": "Mínimo 2/3"
+    },
+    {
+      "numero": 78,
+      "categoria": "kata",
+      "pregunta": "El tiempo total permitido para la demostración combinada de Kata y BUNKAI es de cinco minutos.",
+      "respuesta": true,
+      "aclaracion": "5 minutos total"
+    },
+    {
+      "numero": 79,
+      "categoria": "kata",
+      "pregunta": "En el caso de que haya 3 competidores o menos se realizará un solo Kata para determinar los puestos del 1º al 3º.",
+      "respuesta": true,
+      "aclaracion": "Un solo Kata"
+    },
+    {
+      "numero": 80,
+      "categoria": "kata",
+      "pregunta": "Los jueces de un encuentro de Kata no pueden tener la misma nacionalidad que ninguno de los competidores.",
+      "respuesta": true,
+      "aclaracion": "Sin misma nacionalidad"
+    },
+    {
+      "numero": 81,
+      "categoria": "kata",
+      "pregunta": "Aunque las cintas y otros adornos para el pelo no están permitidos en kumité, sí lo están en Kata.",
+      "respuesta": false,
+      "aclaracion": "Tampoco en Kata"
+    },
+    {
+      "numero": 82,
+      "categoria": "kata",
+      "pregunta": "En los encuentros por medallas en la competición de Kata por equipos, éstos realizarán una demostración del significado del Kata (BUNKAI).",
+      "respuesta": true,
+      "aclaracion": "BUNKAI en medallas"
+    },
+    {
+      "numero": 83,
+      "categoria": "kata",
+      "pregunta": "No es posible repetir un Kata en el sistema eliminatorio Round-Robin o Sistema de todos contra todos.",
+      "respuesta": false,
+      "aclaracion": "Sí es posible"
+    },
+    {
+      "numero": 84,
+      "categoria": "kata",
+      "pregunta": "Para las competiciones que no cuenten para el Ranking Mundial WKF o para la clasificación Olímpica, el número de jueces podrá reducirse a 5.",
+      "respuesta": true,
+      "aclaracion": "Reducción a 5 jueces"
+    },
+    {
+      "numero": 85,
+      "categoria": "kata",
+      "pregunta": "El mismo Kata nunca podrá ser ejecutado dos veces seguidas en el sistema Round-robin o Sistema de todos contra todos.",
+      "respuesta": true,
+      "aclaracion": "No dos veces seguidas"
+    },
+    {
+      "numero": 86,
+      "categoria": "kata",
+      "pregunta": "Si un competidor ya clasificado es descalificado por mala conducta al final de la ronda Round-robin o Sistema de todos contra todos (SHIKKAKU), el oponente de semifinales accederá a la final de forma directa.",
+      "respuesta": true,
+      "aclaracion": "Acceso directo"
+    },
+    {
+      "numero": 87,
+      "categoria": "kata",
+      "pregunta": "Las competidoras deberán llevar una camiseta blanca lisa debajo de la chaqueta de Karate.",
+      "respuesta": false,
+      "aclaracion": "Es opcional"
+    },
+    {
+      "numero": 88,
+      "categoria": "kata",
+      "pregunta": "Las competidoras pueden, si lo desean, llevar una camiseta blanca lisa debajo de la chaqueta de Karate.",
+      "respuesta": true,
+      "aclaracion": "Opcional"
+    },
+    {
+      "numero": 89,
+      "categoria": "kata",
+      "pregunta": "Se prohíbe el uso de indumentaria, ropa o equipamiento no autorizado.",
+      "respuesta": true,
+      "aclaracion": "Prohibido no autorizado"
+    },
+    {
+      "numero": 90,
+      "categoria": "kumite",
+      "pregunta": "En caso de que el Panel de Arbitraje tome una decisión que no esté de acuerdo con el Reglamento de Competición, el Supervisor del Encuentro (KANSA) debe intervenir inmediatamente.",
+      "respuesta": true,
+      "aclaracion": "KANSA debe intervenir"
+    },
+    {
+      "numero": 91,
+      "categoria": "kumite",
+      "pregunta": "Un atleta no debe ser penalizado por estar sin aliento debido a una técnica o reacción al impacto, a menos que haya una lesión real.",
+      "respuesta": true,
+      "aclaracion": "Sin aliento no penaliza"
+    },
+    {
+      "numero": 92,
+      "categoria": "kumite",
+      "pregunta": "Fingir una lesión o exagerar los efectos de una lesión puede resultar en HANSOKU CHUI o HANSOKU.",
+      "respuesta": true,
+      "aclaracion": "Exageración = penalización"
+    },
+    {
+      "numero": 93,
+      "categoria": "kumite",
+      "pregunta": "El árbitro tiene la autoridad para detener el combate si considera que es necesario, incluso si los jueces no lo señalan.",
+      "respuesta": true,
+      "aclaracion": "Autoridad árbitro"
+    },
+    {
+      "numero": 94,
+      "categoria": "kumite",
+      "pregunta": "La revisión por video puede solicitarse en casos de discrepancia en las puntuaciones otorgadas por los jueces.",
+      "respuesta": true,
+      "aclaracion": "Revisión video disponible"
+    },
+    {
+      "numero": 95,
+      "categoria": "kumite",
+      "pregunta": "El árbitro es responsable de indicar las faltas observadas, imponer penalizaciones y deshacer empates en caso de HANTEI.",
+      "respuesta": true,
+      "aclaracion": "Responsabilidades árbitro"
+    },
+    {
+      "numero": 96,
+      "categoria": "kumite",
+      "pregunta": "Cuando un competidor se lesiona durante un combate de kumite, el árbitro debe detener inmediatamente el encuentro y llamar al médico.",
+      "respuesta": true,
+      "aclaracion": "Detener y llamar médico"
+    },
+    {
+      "numero": 97,
+      "categoria": "kumite",
+      "pregunta": "El competidor lesionado debe ser dirigido fuera del área del tatami para ser examinado y tratado por el médico.",
+      "respuesta": true,
+      "aclaracion": "Fuera del área"
+    },
+    {
+      "numero": 98,
+      "categoria": "kumite",
+      "pregunta": "Se permite un tiempo máximo de tres minutos para recibir tratamiento médico.",
+      "respuesta": true,
+      "aclaracion": "3 minutos máximo"
+    },
+    {
+      "numero": 99,
+      "categoria": "kumite",
+      "pregunta": "En caso de lesiones graves, se puede aplicar la regla de los 10 segundos, donde el árbitro cuenta en voz alta hasta diez en inglés.",
+      "respuesta": true,
+      "aclaracion": "Regla 10 segundos"
+    },
+    {
+      "numero": 100,
+      "categoria": "kumite",
+      "pregunta": "El médico del torneo es la autoridad encargada de evaluar la condición física del competidor lesionado y determinar si puede continuar compitiendo.",
+      "respuesta": true,
+      "aclaracion": "Autoridad médica"
+    },
+    {
+      "numero": 101,
+      "categoria": "kumite",
+      "pregunta": "En competiciones Round Robin, si un competidor debe retirarse debido a una lesión, todos los combates anteriores se anulan del resultado, a menos que sea el último encuentro programado para el competidor lesionado.",
+      "respuesta": true,
+      "aclaracion": "Anulación combates"
+    },
+    {
+      "numero": 102,
+      "categoria": "kumite",
+      "pregunta": "Si dos competidores se lesionan mutuamente y son declarados incapaces de continuar por el médico del torneo, el encuentro se decide normalmente como a tiempo completado.",
+      "respuesta": true,
+      "aclaracion": "Decisión a tiempo"
+    },
+    {
+      "numero": 103,
+      "categoria": "kumite",
+      "pregunta": "KIKEN se anuncia cuando un atleta no se recupera en diez segundos después de una situación de peligro.",
+      "respuesta": true,
+      "aclaracion": "KIKEN en 10 segundos"
+    },
+    {
+      "numero": 104,
+      "categoria": "kumite",
+      "pregunta": "SHIKKAKU resulta en la descalificación del combate actual solamente.",
+      "respuesta": false,
+      "aclaracion": "Descalifica del TORNEO COMPLETO"
+    },
+    {
+      "numero": 105,
+      "categoria": "kumite",
+      "pregunta": "HANSOKU resulta en la descalificación del torneo completo.",
+      "respuesta": false,
+      "aclaracion": "Descalifica del COMBATE ACTUAL"
+    },
+    {
+      "numero": 106,
+      "categoria": "kumite",
+      "pregunta": "Actuar maliciosamente puede resultar en SHIKKAKU.",
+      "respuesta": true,
+      "aclaracion": "Malicia = SHIKKAKU"
+    },
+    {
+      "numero": 107,
+      "categoria": "kumite",
+      "pregunta": "Desobedecer las órdenes del árbitro puede resultar en SHIKKAKU.",
+      "respuesta": true,
+      "aclaracion": "Desobediencia = SHIKKAKU"
+    },
+    {
+      "numero": 108,
+      "categoria": "kumite",
+      "pregunta": "El competidor descalificado por SHIKKAKU no puede continuar en categorías futuras del mismo torneo.",
+      "respuesta": true,
+      "aclaracion": "No continúa en torneo"
+    },
+    {
+      "numero": 109,
+      "categoria": "kumite",
+      "pregunta": "Tanto los entrenadores como los competidores pueden solicitar una revisión de video.",
+      "respuesta": false,
+      "aclaracion": "Solo entrenadores"
+    },
+    {
+      "numero": 110,
+      "categoria": "kumite",
+      "pregunta": "El Supervisor de Revisión de Video evaluará los últimos 6 segundos antes de la solicitud.",
+      "respuesta": true,
+      "aclaracion": "6 segundos antes"
+    },
+    {
+      "numero": 111,
+      "categoria": "kumite",
+      "pregunta": "Se prioriza la velocidad normal antes de recurrir a cámara lenta o zoom.",
+      "respuesta": true,
+      "aclaracion": "Velocidad normal primero"
+    },
+    {
+      "numero": 112,
+      "categoria": "kumite",
+      "pregunta": "Si se confirma que un competidor anotó más de una vez, se otorgará la puntuación más alta.",
+      "respuesta": true,
+      "aclaracion": "Puntuación más alta"
+    },
+    {
+      "numero": 113,
+      "categoria": "kumite",
+      "pregunta": "Los entrenadores deben levantar la tarjeta de revisión antes de que comience la revisión para mantener su derecho.",
+      "respuesta": true,
+      "aclaracion": "Tarjeta antes de revisión"
+    },
+    {
+      "numero": 114,
+      "categoria": "kumite",
+      "pregunta": "Los entrenadores pueden solicitar un formulario de Reclamación Oficial al Jefe de Tatami para iniciar una protesta.",
+      "respuesta": true,
+      "aclaracion": "Formulario de reclamación"
+    },
+    {
+      "numero": 115,
+      "categoria": "kumite",
+      "pregunta": "Las protestas rechazadas pueden implicar sanciones económicas al reclamante.",
+      "respuesta": false,
+      "aclaracion": "No sanciones económicas"
+    },
+    {
+      "numero": 116,
+      "categoria": "kumite",
+      "pregunta": "El cronometrador da una señal audible 15 segundos antes del final del combate, y el árbitro anuncia 'Ato Shibaraku'.",
+      "respuesta": true,
+      "aclaracion": "ATO SHIBARAKU 15 seg"
+    },
+    {
+      "numero": 117,
+      "categoria": "kumite",
+      "pregunta": "SHOBU HAJIME significa 'Inicio del Encuentro'.",
+      "respuesta": true,
+      "aclaracion": "Inicio del encuentro"
+    },
+    {
+      "numero": 118,
+      "categoria": "kumite",
+      "pregunta": "YAME significa 'Continuar'.",
+      "respuesta": false,
+      "aclaracion": "YAME = Parada"
+    },
+    {
+      "numero": 119,
+      "categoria": "kumite",
+      "pregunta": "MOTO NO ICHI significa 'Posición Original'.",
+      "respuesta": true,
+      "aclaracion": "Posición original"
+    },
+    {
+      "numero": 120,
+      "categoria": "kumite",
+      "pregunta": "El HANTEI se utiliza para tomar decisiones en caso de empate al final de un combate.",
+      "respuesta": true,
+      "aclaracion": "HANTEI para empates"
+    },
+    {
+      "numero": 121,
+      "categoria": "kumite",
+      "pregunta": "En el HANTEI, después de un toque de silbato, los jueces señalan sus votos simultáneamente.",
+      "respuesta": true,
+      "aclaracion": "Votos simultáneos"
+    },
+    {
+      "numero": 122,
+      "categoria": "kumite",
+      "pregunta": "HIKIWAKE significa 'Empate'.",
+      "respuesta": true,
+      "aclaracion": "Definición HIKIWAKE"
+    },
+    {
+      "numero": 123,
+      "categoria": "kumite",
+      "pregunta": "AKA NO KACHI significa 'Rojo Gana'.",
+      "respuesta": true,
+      "aclaracion": "Rojo gana"
+    },
+    {
+      "numero": 124,
+      "categoria": "kumite",
+      "pregunta": "AO NO KACHI significa 'Azul Gana'.",
+      "respuesta": true,
+      "aclaracion": "Azul gana"
+    },
+    {
+      "numero": 125,
+      "categoria": "kumite",
+      "pregunta": "AKA IPPON significa 'Rojo anota tres puntos'.",
+      "respuesta": true,
+      "aclaracion": "3 puntos rojo"
+    },
+    {
+      "numero": 126,
+      "categoria": "kumite",
+      "pregunta": "En competiciones de equipos masculinos, un combate consta de 7 encuentros individuales.",
+      "respuesta": true,
+      "aclaracion": "7 encuentros masculinos"
+    },
+    {
+      "numero": 127,
+      "categoria": "kumite",
+      "pregunta": "El número máximo de competidores que un equipo puede tener, incluyendo reservas, es de 9 para Round-robin.",
+      "respuesta": true,
+      "aclaracion": "7 titulares + 2 reservas"
+    },
+    {
+      "numero": 128,
+      "categoria": "kumite",
+      "pregunta": "El número mínimo de participantes requeridos para cualquier encuentro eliminatorio en equipos es de 7.",
+      "respuesta": true,
+      "aclaracion": "Mínimo 7"
+    },
+    {
+      "numero": 129,
+      "categoria": "kumite",
+      "pregunta": "En un combate por equipos masculinos, si un equipo gana tres combates, el combate finaliza.",
+      "respuesta": false,
+      "aclaracion": "Necesita 4 victorias"
+    },
+    {
+      "numero": 130,
+      "categoria": "kumite",
+      "pregunta": "En equipos femeninos, el combate finaliza cuando un equipo gana 2 encuentros.",
+      "respuesta": false,
+      "aclaracion": "Necesita 3 victorias"
+    },
+    {
+      "numero": 131,
+      "categoria": "kumite",
+      "pregunta": "Se prohíben las técnicas que causen contacto excesivo en la garganta.",
+      "respuesta": true,
+      "aclaracion": "Contacto excesivo prohibido"
+    },
+    {
+      "numero": 132,
+      "categoria": "kumite",
+      "pregunta": "Está prohibido intentar atacar los ojos del oponente.",
+      "respuesta": true,
+      "aclaracion": "Ataques a ojos prohibidos"
+    },
+    {
+      "numero": 133,
+      "categoria": "kumite",
+      "pregunta": "Morder, arañar o agarrar innecesariamente está prohibido.",
+      "respuesta": true,
+      "aclaracion": "Conductas prohibidas"
+    },
+    {
+      "numero": 134,
+      "categoria": "kumite",
+      "pregunta": "Los lanzamientos son un fin en sí mismos en kumite.",
+      "respuesta": false,
+      "aclaracion": "Son para crear aperturas"
+    },
+    {
+      "numero": 135,
+      "categoria": "kumite",
+      "pregunta": "Se permiten tanto los barridos de piernas convencionales como los derribos que requieren sujetar al oponente con una mano.",
+      "respuesta": true,
+      "aclaracion": "Barridos y derribos permitidos"
+    },
+    {
+      "numero": 136,
+      "categoria": "kumite",
+      "pregunta": "Se permiten los derribos por encima de los hombros.",
+      "respuesta": false,
+      "aclaracion": "No permitidos"
+    },
+    {
+      "numero": 137,
+      "categoria": "kumite",
+      "pregunta": "Se permiten los derribos de 'sacrificio'.",
+      "respuesta": false,
+      "aclaracion": "No permitidos"
+    },
+    {
+      "numero": 138,
+      "categoria": "kumite",
+      "pregunta": "Se permite atrapar una patada del oponente.",
+      "respuesta": true,
+      "aclaracion": "Atrapar patada OK"
+    },
+    {
+      "numero": 139,
+      "categoria": "kumite",
+      "pregunta": "Se permite agarrar con una mano para realizar técnicas válidas.",
+      "respuesta": true,
+      "aclaracion": "Agarrar una mano OK"
+    },
+    {
+      "numero": 140,
+      "categoria": "kumite",
+      "pregunta": "El árbitro indica TSUKAMI cuando un atleta agarra al oponente pero no realiza una técnica o derribo inmediato.",
+      "respuesta": true,
+      "aclaracion": "TSUKAMI por agarrar sin técnica"
+    },
+    {
+      "numero": 141,
+      "categoria": "kumite",
+      "pregunta": "La categoría Cadete es para atletas de 14-15 años.",
+      "respuesta": true,
+      "aclaracion": "14-15 años"
+    },
+    {
+      "numero": 142,
+      "categoria": "kumite",
+      "pregunta": "La categoría Junior es para atletas de 16-17 años.",
+      "respuesta": true,
+      "aclaracion": "16-17 años"
+    },
+    {
+      "numero": 143,
+      "categoria": "kumite",
+      "pregunta": "La categoría Senior es para atletas de 18 años en adelante.",
+      "respuesta": true,
+      "aclaracion": "18+ años"
+    },
+    {
+      "numero": 144,
+      "categoria": "kumite",
+      "pregunta": "La categoría Sub21 es para atletas menores de 21 años.",
+      "respuesta": true,
+      "aclaracion": "Menores de 21"
+    },
+    {
+      "numero": 145,
+      "categoria": "kumite",
+      "pregunta": "En categorías más jóvenes se limitan ciertas técnicas de contacto directo.",
+      "respuesta": true,
+      "aclaracion": "Limitaciones por edad"
+    },
+    {
+      "numero": 146,
+      "categoria": "kumite",
+      "pregunta": "Para que una técnica puntúe debe tener buena forma (técnica correcta).",
+      "respuesta": true,
+      "aclaracion": "Buena forma requerida"
+    },
+    {
+      "numero": 147,
+      "categoria": "kumite",
+      "pregunta": "Zanshin (buena actitud/alerta) es uno de los criterios para puntuar.",
+      "respuesta": true,
+      "aclaracion": "ZANSHIN criterio"
+    },
+    {
+      "numero": 148,
+      "categoria": "kumite",
+      "pregunta": "Una técnica ejecutada con la espalda girada hacia el oponente puede puntuar.",
+      "respuesta": false,
+      "aclaracion": "No puede puntuar"
+    },
+    {
+      "numero": 149,
+      "categoria": "kumite",
+      "pregunta": "Las técnicas ejecutadas después de la señal de tiempo son válidas si se ejecutan correctamente.",
+      "respuesta": false,
+      "aclaracion": "No son válidas"
+    },
+    {
+      "numero": 150,
+      "categoria": "kumite",
+      "pregunta": "Se pueden señalar puntos incluso si el juez no ve el punto real de impacto, siempre que la técnica se haya ejecutado correctamente.",
+      "respuesta": true,
+      "aclaracion": "Sin ver impacto pero técnica correcta"
+    },
+    {
+      "numero": 151,
+      "categoria": "kumite",
+      "pregunta": "Se aplica el sistema Round-robin (todos contra todos) para competición individual.",
+      "respuesta": false,
+      "aclaracion": "Sistema eliminación directa"
+    },
+    {
+      "numero": 152,
+      "categoria": "kumite",
+      "pregunta": "El derecho a ser cabeza de serie desciende a puestos inferiores en ausencia de competidores elegibles.",
+      "respuesta": true,
+      "aclaracion": "Descenso cabezas serie"
+    },
+    {
+      "numero": 153,
+      "categoria": "kumite",
+      "pregunta": "En eventos de Premier League se utiliza el sistema de todos contra todos seguido de eliminación.",
+      "respuesta": true,
+      "aclaracion": "Premier League sistema"
+    },
+    {
+      "numero": 154,
+      "categoria": "kumite",
+      "pregunta": "Los equipos medallistas del evento anterior pueden ser cabezas de serie.",
+      "respuesta": true,
+      "aclaracion": "Medallistas cabezas serie"
+    },
+    {
+      "numero": 155,
+      "categoria": "kumite",
+      "pregunta": "El uso del protector bucal es obligatorio para todos los competidores.",
+      "respuesta": true,
+      "aclaracion": "Protector bucal obligatorio"
+    },
+    {
+      "numero": 156,
+      "categoria": "kumite",
+      "pregunta": "Los hombres deben usar un protector corporal aprobado por la WKF/RFEK.",
+      "respuesta": true,
+      "aclaracion": "Protector corporal hombres"
+    },
+    {
+      "numero": 157,
+      "categoria": "kumite",
+      "pregunta": "Las mujeres deben utilizar un protector de pecho y cuerpo o protector de pecho y abdomen.",
+      "respuesta": true,
+      "aclaracion": "Protector mujeres"
+    },
+    {
+      "numero": 158,
+      "categoria": "kumite",
+      "pregunta": "Las guantillas deben ser aprobadas por la WKF, siendo un competidor rojo y otro azul.",
+      "respuesta": true,
+      "aclaracion": "Guantillas rojo/azul"
+    },
+    {
+      "numero": 159,
+      "categoria": "kumite",
+      "pregunta": "Se permite el uso de pasadores metálicos en el cabello.",
+      "respuesta": false,
+      "aclaracion": "No permitidos"
+    },
+    {
+      "numero": 160,
+      "categoria": "kumite",
+      "pregunta": "Se permite el uso de un pañuelo negro por motivos religiosos, dejando la garganta al descubierto.",
+      "respuesta": true,
+      "aclaracion": "Pañuelo religioso OK"
+    },
+    {
+      "numero": 161,
+      "categoria": "kumite",
+      "pregunta": "El cabello debe mantenerse a una longitud que no interfiera con la práctica.",
+      "respuesta": true,
+      "aclaracion": "Longitud apropiada"
+    },
+    {
+      "numero": 162,
+      "categoria": "kumite",
+      "pregunta": "En competiciones internacionales, el árbitro no debe tener la misma nacionalidad que ninguno de los atletas, aunque uno de los jueces puede si ambos entrenadores están de acuerdo.",
+      "respuesta": true,
+      "aclaracion": "Nacionalidad árbitro"
+    },
+    {
+      "numero": 163,
+      "categoria": "kumite",
+      "pregunta": "El supervisor del encuentro (KANSA) se alineará junto con el árbitro y los jueces.",
+      "respuesta": false,
+      "aclaracion": "KANSA fuera del área"
+    },
+    {
+      "numero": 164,
+      "categoria": "kumite",
+      "pregunta": "Los entrenadores se sentarán fuera de la zona de seguridad, en sus respectivos lados, mirando hacia la mesa oficial.",
+      "respuesta": true,
+      "aclaracion": "Posición entrenadores"
+    },
+    {
+      "numero": 165,
+      "categoria": "kumite",
+      "pregunta": "KANSA no necesita interferir si el árbitro da una puntuación a un atleta y una exageración al otro.",
+      "respuesta": true,
+      "aclaracion": "No interferencia en ese caso"
+    },
+    {
+      "numero": 166,
+      "categoria": "kumite",
+      "pregunta": "En los encuentros por equipos, el Panel de Arbitraje rotará para cada combate, siempre que todos posean la licencia requerida.",
+      "respuesta": true,
+      "aclaracion": "Rotación panel"
+    },
+    {
+      "numero": 167,
+      "categoria": "kumite",
+      "pregunta": "En los encuentros por equipos, el Panel de Arbitraje rotará para cada combate solo en los combates por medallas.",
+      "respuesta": false,
+      "aclaracion": "Rotan en TODOS"
+    },
+    {
+      "numero": 168,
+      "categoria": "kumite",
+      "pregunta": "El árbitro puede moverse por todo el tatami, incluidas las zonas de seguridad.",
+      "respuesta": true,
+      "aclaracion": "Movimiento libre árbitro"
+    },
+    {
+      "numero": 169,
+      "categoria": "kumite",
+      "pregunta": "'Evitar el combate' se refiere a una situación en la que un atleta intenta evitar que el oponente tenga la oportunidad de puntuar utilizando un comportamiento de pérdida de tiempo.",
+      "respuesta": true,
+      "aclaracion": "Definición evitar combate"
+    },
+    {
+      "numero": 170,
+      "categoria": "kumite",
+      "pregunta": "TSUZUKETE, a menos que vaya precedido de WAKARETE, no se utiliza si quedan menos de 15 segundos de combate.",
+      "respuesta": false,
+      "aclaracion": "Sí se puede usar"
+    },
+    {
+      "numero": 171,
+      "categoria": "kumite",
+      "pregunta": "En encuentros por equipos, si dos atletas se lesionan mutuamente y no pueden continuar y la puntuación es igual, el árbitro anunciará HIKIWAKE.",
+      "respuesta": true,
+      "aclaracion": "HIKIWAKE en ese caso"
+    },
+    {
+      "numero": 172,
+      "categoria": "kumite",
+      "pregunta": "Cuando queden menos de 15 segundos de combate y el atleta que va perdiendo, intentando desesperadamente igualar, se sale del área (JOGAI), se le dará un mínimo de HANSOKU-CHUI.",
+      "respuesta": false,
+      "aclaracion": "Esta pregunta es confusa en el documento"
+    },
+    {
+      "numero": 173,
+      "categoria": "kumite",
+      "pregunta": "Las técnicas realizadas por debajo del cinturón no pueden puntuar.",
+      "respuesta": true,
+      "aclaracion": "Por debajo cinturón no puntúa"
+    },
+    {
+      "numero": 174,
+      "categoria": "kumite",
+      "pregunta": "Las técnicas que se realicen sobre el omóplato pueden puntuar.",
+      "respuesta": true,
+      "aclaracion": "Omóplato puede puntuar"
+    },
+    {
+      "numero": 175,
+      "categoria": "kumite",
+      "pregunta": "Si AKA accidentalmente golpea a AO en la cadera y AO no puede continuar el combate, entonces AO recibirá KIKEN.",
+      "respuesta": false,
+      "aclaracion": "No automático"
+    },
+    {
+      "numero": 176,
+      "categoria": "kumite",
+      "pregunta": "Si un atleta está obviamente sin aliento debido a la falta de resistencia, el árbitro deberá detener el combate para darle tiempo a recuperarse.",
+      "respuesta": false,
+      "aclaracion": "No se detiene por resistencia"
+    },
+    {
+      "numero": 177,
+      "categoria": "kumite",
+      "pregunta": "Un combate extra se utiliza solo para encuentros por equipos.",
+      "respuesta": true,
+      "aclaracion": "Solo equipos"
+    },
+    {
+      "numero": 178,
+      "categoria": "kumite",
+      "pregunta": "KANSA tiene que hacer sonar el silbato si el árbitro da una puntuación a un atleta y MUBOBI al otro.",
+      "respuesta": true,
+      "aclaracion": "KANSA interviene"
+    },
+    {
+      "numero": 179,
+      "categoria": "kumite",
+      "pregunta": "La violación grave de la conducta o disciplina o comportamiento malicioso merece un HANSOKU CHUI.",
+      "respuesta": false,
+      "aclaracion": "Merece SHIKKAKU"
+    },
+    {
+      "numero": 180,
+      "categoria": "kumite",
+      "pregunta": "Las atletas deben llevar un protector corporal femenino homologado por la WKF.",
+      "respuesta": true,
+      "aclaracion": "Protector femenino obligatorio"
+    },
+    {
+      "numero": 181,
+      "categoria": "kumite",
+      "pregunta": "Los cinturones rojo y azul deben estar sin bordados o marcas personales.",
+      "respuesta": true,
+      "aclaracion": "Sin bordados personales"
+    },
+    {
+      "numero": 182,
+      "categoria": "kumite",
+      "pregunta": "Cuando una situación parezca justificar posiblemente una descalificación, el árbitro puede llamar a uno o más jueces para una breve consulta (FUKUSHIN SHUGO) antes de anunciar cualquier decisión.",
+      "respuesta": true,
+      "aclaracion": "FUKUSHIN SHUGO permitido"
+    },
+    {
+      "numero": 183,
+      "categoria": "kumite",
+      "pregunta": "Los atletas deben llevar un Karate-Gi blanco sin bordados personales.",
+      "respuesta": true,
+      "aclaracion": "Gi blanco sin bordados"
+    },
+    {
+      "numero": 184,
+      "categoria": "kumite",
+      "pregunta": "Los bordados personales en el Karate-Gi solo están permitidos en los combates por medallas.",
+      "respuesta": false,
+      "aclaracion": "No permitidos"
+    },
+    {
+      "numero": 185,
+      "categoria": "kumite",
+      "pregunta": "Cuando el árbitro considere que el contacto es demasiado fuerte, pero no disminuye las posibilidades del atleta de ganar, se puede dar una advertencia (CHUI).",
+      "respuesta": true,
+      "aclaracion": "CHUI por contacto fuerte"
+    },
+    {
+      "numero": 186,
+      "categoria": "kumite",
+      "pregunta": "Cualquier técnica que resulte en lesión, a menos que sea causada por el receptor, causará una advertencia o penalización.",
+      "respuesta": true,
+      "aclaracion": "Lesión = advertencia/penalización"
+    },
+    {
+      "numero": 187,
+      "categoria": "kumite",
+      "pregunta": "Para corregir una puntuación dada al atleta equivocado, el árbitro debe girarse hacia el atleta al que se le ha dado la puntuación por error, hacer el signo de TORIMASEN, y después dar la puntuación al oponente.",
+      "respuesta": true,
+      "aclaracion": "Procedimiento TORIMASEN"
+    },
+    {
+      "numero": 188,
+      "categoria": "kumite",
+      "pregunta": "Si un atleta puntúa con un CHUDAN GERI bien controlado y, después, accidentalmente golpea a su oponente en la cara causándole una herida leve, se debe dar WAZA-ARI y una advertencia.",
+      "respuesta": true,
+      "aclaracion": "Punto + advertencia"
+    },
+    {
+      "numero": 189,
+      "categoria": "kumite",
+      "pregunta": "Cuando un atleta lesionado ha recibido tratamiento médico y el médico oficial dice que el atleta puede continuar combatiendo, el árbitro no puede invalidar la decisión del médico.",
+      "respuesta": true,
+      "aclaracion": "Decisión médico es final"
+    },
+    {
+      "numero": 190,
+      "categoria": "kumite",
+      "pregunta": "El árbitro puede detener el combate incluso si los jueces no lo señalan.",
+      "respuesta": true,
+      "aclaracion": "Autoridad árbitro"
+    },
+    {
+      "numero": 191,
+      "categoria": "kumite",
+      "pregunta": "Una vez que el árbitro anuncia WAKARETE, los entrenadores no tienen la oportunidad de solicitar una revisión de vídeo, a menos que las técnicas se hayan producido antes de que se anuncie WAKARETE.",
+      "respuesta": true,
+      "aclaracion": "Revisión antes WAKARETE"
+    },
+    {
+      "numero": 192,
+      "categoria": "kumite",
+      "pregunta": "¿Cuándo se concede un punto YUKO en un combate de kumite?",
+      "respuesta": true,
+      "aclaracion": "Técnica efectiva de puño (TSUKI) en área puntuable = 1 punto"
+    },
+    {
+      "numero": 193,
+      "categoria": "kumite",
+      "pregunta": "¿Cuántos puntos vale un WAZA-ARI en kumite?",
+      "respuesta": true,
+      "aclaracion": "WAZA-ARI = 2 puntos (patadas CHUDAN)"
+    },
+    {
+      "numero": 194,
+      "categoria": "kumite",
+      "pregunta": "¿Cuál es el valor en puntos de un IPPON en kumite?",
+      "respuesta": true,
+      "aclaracion": "IPPON = 3 puntos (patadas JODAN o técnicas sobre oponente derribado)"
+    },
+    {
+      "numero": 195,
+      "categoria": "kumite",
+      "pregunta": "¿Qué debe hacer el supervisor del encuentro antes de cada combate en relación con el equipamiento de los atletas?",
+      "respuesta": true,
+      "aclaracion": "Asegurarse equipamiento homologado"
+    },
+    {
+      "numero": 196,
+      "categoria": "kumite",
+      "pregunta": "¿Qué acciones pueden resultar en la concesión de un WAZA-ARI por parte de los jueces en un combate de kumite?",
+      "respuesta": true,
+      "aclaracion": "Patadas CHUDAN efectivas y controladas"
+    },
+    {
+      "numero": 197,
+      "categoria": "kumite",
+      "pregunta": "¿En qué circunstancias se otorga un IPPON en kumite?",
+      "respuesta": true,
+      "aclaracion": "JODAN GERI, técnicas sobre oponente derribado, excepción Hiza-Gamae"
+    },
+    {
+      "numero": 198,
+      "categoria": "kumite",
+      "pregunta": "¿Qué sucede si tres jueces señalan la victoria para un competidor y el cuarto juez señala la victoria para el oponente en una decisión de HANTEI?",
+      "respuesta": true,
+      "aclaracion": "Victoria por mayoría (3 votos)"
+    },
+    {
+      "numero": 199,
+      "categoria": "kumite",
+      "pregunta": "¿Qué significa el término 'pasividad' en un combate de kumite?",
+      "respuesta": true,
+      "aclaracion": "Falta de actividad o iniciativa, sancionable"
+    },
+    {
+      "numero": 200,
+      "categoria": "kumite",
+      "pregunta": "¿Cuál es la consecuencia de evitar el combate durante los últimos 15 segundos de un combate en kumite?",
+      "respuesta": true,
+      "aclaracion": "Sanción mínima HANSOKU CHUI + pérdida SENSHU"
+    },
+    {
+      "numero": 201,
+      "categoria": "kumite",
+      "pregunta": "¿Qué acciones se consideran infracciones en un combate de kumite?",
+      "respuesta": true,
+      "aclaracion": "Ataques cabeza/rodillas/codos, contacto excesivo, técnicas peligrosas, falta respeto, exageración lesiones"
+    },
+    {
+      "numero": 202,
+      "categoria": "kumite",
+      "pregunta": "Es obligación del supervisor del encuentro asegurarse antes de cada encuentro o combate de que los atletas llevan el equipamiento homologado.",
+      "respuesta": true,
+      "aclaracion": "Obligación supervisor"
+    },
+    {
+      "numero": 203,
+      "categoria": "kumite",
+      "pregunta": "Es obligación del Tatami Manager asegurarse antes de cada combate o encuentro de que los atletas llevan el equipamiento homologado.",
+      "respuesta": true,
+      "aclaracion": "También Tatami Manager"
+    },
+    {
+      "numero": 204,
+      "categoria": "kumite",
+      "pregunta": "Los entrenadores deben presentar su acreditación junto con la de su atleta o equipo en la mesa oficial.",
+      "respuesta": true,
+      "aclaracion": "Acreditación obligatoria"
+    },
+    {
+      "numero": 205,
+      "categoria": "kumite",
+      "pregunta": "Se concederá WAZA-ARI por las patadas CHUDAN.",
+      "respuesta": true,
+      "aclaracion": "CHUDAN = WAZA-ARI"
+    },
+    {
+      "numero": 206,
+      "categoria": "kumite",
+      "pregunta": "IPPON se concede por JODAN GERI y técnicas puntuables realizadas sobre un oponente que ha sido derribado, ha caído por su propia falta, o se ha caído de cualquier forma.",
+      "respuesta": true,
+      "aclaracion": "Criterios IPPON"
+    },
+    {
+      "numero": 207,
+      "categoria": "kumite",
+      "pregunta": "Los combates individuales no pueden ser declarados empate.",
+      "respuesta": true,
+      "aclaracion": "Pueden ser empate (HIKIWAKE)"
+    },
+    {
+      "numero": 208,
+      "categoria": "kumite",
+      "pregunta": "Se puede dar pasividad a cualquier atleta en cualquier momento.",
+      "respuesta": true,
+      "aclaracion": "Pasividad en cualquier momento excepto primeros 15 seg"
+    },
+    {
+      "numero": 209,
+      "categoria": "kumite",
+      "pregunta": "No se puede dar pasividad durante los primeros 15 segundos de un combate.",
+      "respuesta": true,
+      "aclaracion": "Primeros 15 seg exentos"
+    },
+    {
+      "numero": 210,
+      "categoria": "kumite",
+      "pregunta": "Los ataques simulados con la cabeza, las rodillas o los codos son infracciones.",
+      "respuesta": true,
+      "aclaracion": "Ataques simulados prohibidos"
+    },
+    {
+      "numero": 211,
+      "categoria": "kumite",
+      "pregunta": "Evitar el combate durante los últimos 15 segundos del combate (ATO SHIBARAKU) resultará como mínimo en HANSOKU CHUI y pérdida de SENSHU.",
+      "respuesta": true,
+      "aclaracion": "ATO SHIBARAKU penalización severa"
+    },
+    {
+      "numero": 212,
+      "categoria": "kumite",
+      "pregunta": "El entrenador jefe de una delegación puede protestar sobre un fallo ante los miembros del Panel de Arbitraje.",
+      "respuesta": true,
+      "aclaracion": "Puede protestar"
+    },
+    {
+      "numero": 213,
+      "categoria": "kumite",
+      "pregunta": "En un tatami de Kumite se invierten dos planchas de tatami, con el lado rojo hacia arriba a una distancia de un metro del centro del tatami, para formar un límite entre los atletas.",
+      "respuesta": true,
+      "aclaracion": "Configuración tatami"
+    },
+    {
+      "numero": 214,
+      "categoria": "kumite",
+      "pregunta": "Si un atleta no se recupera en diez segundos, el árbitro anunciará 'KIKEN' y 'KACHI' al oponente.",
+      "respuesta": true,
+      "aclaracion": "10 segundos = KIKEN"
+    },
+    {
+      "numero": 215,
+      "categoria": "kata",
+      "pregunta": "Los miembros del equipo de Kata deben llevar todos el mismo tipo de Karategui.",
+      "respuesta": true,
+      "aclaracion": "Mismo tipo de Karategui"
+    },
+    {
+      "numero": 216,
+      "categoria": "kata",
+      "pregunta": "El tiempo total permitido para la demostración combinada de Kata y BUNKAI es de seis minutos.",
+      "respuesta": false,
+      "aclaracion": "Son 5 minutos"
+    },
+    {
+      "numero": 217,
+      "categoria": "kata",
+      "pregunta": "En la competición de Kata se permiten ligeras variaciones según el estilo del competidor (RYU-HA).",
+      "respuesta": true,
+      "aclaracion": "Variaciones de estilo permitidas"
+    },
+    {
+      "numero": 218,
+      "categoria": "kata",
+      "pregunta": "Las gafas están prohibidas durante la ejecución de Kata.",
+      "respuesta": true,
+      "aclaracion": "Gafas prohibidas"
+    },
+    {
+      "numero": 219,
+      "categoria": "kata",
+      "pregunta": "Se permite llevar una goma discreta en una coleta.",
+      "respuesta": true,
+      "aclaracion": "Goma discreta permitida"
+    },
+    {
+      "numero": 220,
+      "categoria": "kata",
+      "pregunta": "El derecho a ser cabeza de serie desciende a puestos inferiores en ausencia de competidores elegibles para ser cabeza de serie.",
+      "respuesta": true,
+      "aclaracion": "Descenso cabezas serie"
+    },
+    {
+      "numero": 221,
+      "categoria": "kata",
+      "pregunta": "Realizar un movimiento de forma incorrecta o incompleta se considera falta.",
+      "respuesta": true,
+      "aclaracion": "Movimiento incorrecto = falta"
+    },
+    {
+      "numero": 222,
+      "categoria": "kata",
+      "pregunta": "Perder tiempo, incluyendo marchas prolongadas, saludos excesivos o pausas prolongadas, antes de comenzar la ejecución se considera falta.",
+      "respuesta": true,
+      "aclaracion": "Pérdida tiempo = falta"
+    },
+    {
+      "numero": 223,
+      "categoria": "kata",
+      "pregunta": "Dar pisotones o palmadas en el pecho, brazos o Karate-gi, son señales audibles.",
+      "respuesta": true,
+      "aclaracion": "Señales audibles"
+    },
+    {
+      "numero": 224,
+      "categoria": "kata",
+      "pregunta": "El uso de señales audibles no se considera falta.",
+      "respuesta": false,
+      "aclaracion": "SÍ es falta"
+    },
+    {
+      "numero": 225,
+      "categoria": "kata",
+      "pregunta": "La exhalación inapropiada no es una señal audible.",
+      "respuesta": false,
+      "aclaracion": "SÍ es señal audible"
+    },
+    {
+      "numero": 226,
+      "categoria": "kata",
+      "pregunta": "No ejecutar completamente un bloqueo o golpear fuera del objetivo se considera falta.",
+      "respuesta": true,
+      "aclaracion": "Ejecución incompleta = falta"
+    },
+    {
+      "numero": 227,
+      "categoria": "kata",
+      "pregunta": "Causar lesión por falta de técnica de control durante el BUNKAI está permitido.",
+      "respuesta": false,
+      "aclaracion": "Resulta en descalificación"
+    },
+    {
+      "numero": 228,
+      "categoria": "kata",
+      "pregunta": "Los miembros del equipo deben demostrar competencia en todos los aspectos de la ejecución del Kata, así como sincronización.",
+      "respuesta": true,
+      "aclaracion": "Competencia y sincronización"
+    },
+    {
+      "numero": 229,
+      "categoria": "kata",
+      "pregunta": "Los jueces tendrán en cuenta las órdenes de inicio y finalización de la ejecución a la hora de tomar una decisión.",
+      "respuesta": false,
+      "aclaracion": "Evaluación entre saludos"
+    },
+    {
+      "numero": 230,
+      "categoria": "kata",
+      "pregunta": "Es responsabilidad del Presidente de la Federación Nacional asegurarse de que el Kata notificado a la mesa de puntuación es apropiado para esa ronda en particular.",
+      "respuesta": false,
+      "aclaracion": "Responsabilidad competidor/entrenador"
+    },
+    {
+      "numero": 231,
+      "categoria": "kata",
+      "pregunta": "Al realizar BUNKAI, después de ser derribado, el competidor debe levantarse sobre una rodilla o ponerse de pie antes de 2 segundos.",
+      "respuesta": true,
+      "aclaracion": "2 segundos máximo"
+    },
+    {
+      "numero": 232,
+      "categoria": "kata",
+      "pregunta": "Omitir o añadir movimientos o cambiar sustancialmente la ejecución de su forma original es una descalificación.",
+      "respuesta": true,
+      "aclaracion": "Cambios sustanciales = descalificación"
+    },
+    {
+      "numero": 233,
+      "categoria": "kata",
+      "pregunta": "La celebración excesiva y las manifestaciones políticas o religiosas se consideran descalificación para kumité, pero no para Kata.",
+      "respuesta": false,
+      "aclaracion": "En AMBOS descalificación"
+    },
+    {
+      "numero": 234,
+      "categoria": "kata",
+      "pregunta": "El competidor debe esperar en el tatami el anuncio de la evaluación al final de la actuación.",
+      "respuesta": true,
+      "aclaracion": "Esperar en tatami"
+    },
+    {
+      "numero": 235,
+      "categoria": "kata",
+      "pregunta": "Los competidores pueden seleccionar cualquier Kata de la lista oficial de Katas.",
+      "respuesta": true,
+      "aclaracion": "Lista oficial"
+    },
+    {
+      "numero": 236,
+      "categoria": "kata",
+      "pregunta": "El equipo que no realice el saludo al principio y al final de la actuación será descalificado.",
+      "respuesta": true,
+      "aclaracion": "Saludo obligatorio"
+    },
+    {
+      "numero": 237,
+      "categoria": "kata",
+      "pregunta": "Se permite el uso de armas tradicionales, equipo auxiliar o indumentaria adicional.",
+      "respuesta": false,
+      "aclaracion": "No permitido"
+    },
+    {
+      "numero": 238,
+      "categoria": "kata",
+      "pregunta": "La ejecución en Kata individual se evalúa desde el saludo que inicia el Kata hasta el saludo final.",
+      "respuesta": true,
+      "aclaracion": "Entre saludos"
+    },
+    {
+      "numero": 239,
+      "categoria": "kata",
+      "pregunta": "Las actuaciones de Kata reciben una puntuación de 5,0 a 10,0 en incrementos de 0,1.",
+      "respuesta": true,
+      "aclaracion": "Escala 5.0 a 10.0"
+    },
+    {
+      "numero": 240,
+      "categoria": "kata",
+      "pregunta": "El lanzamiento de moneda es la primera opción para resolver empates en Kata.",
+      "respuesta": false,
+      "aclaracion": "No es primera opción"
+    },
+    {
+      "numero": 241,
+      "categoria": "kata",
+      "pregunta": "En el sistema de eliminación Round-robin o Sistema de todos contra todos con 4 competidores, hay 6 formas de resolver un empate.",
+      "respuesta": true,
+      "aclaracion": "6 formas desempate"
+    },
+    {
+      "numero": 242,
+      "categoria": "kata",
+      "pregunta": "En un sistema de eliminación con 8 competidores, hay 6 formas de resolver un empate.",
+      "respuesta": true,
+      "aclaracion": "6 formas desempate"
+    },
+    {
+      "numero": 243,
+      "categoria": "kata",
+      "pregunta": "Existen 10 criterios para la evaluación del Kata.",
+      "respuesta": true,
+      "aclaracion": "10 criterios"
+    },
+    {
+      "numero": 244,
+      "categoria": "kata",
+      "pregunta": "El movimiento de transición es uno de los criterios de evaluación para la ejecución de Kata, pero no para BUNKAI.",
+      "respuesta": true,
+      "aclaracion": "Solo para Kata"
+    },
+    {
+      "numero": 245,
+      "categoria": "kata",
+      "pregunta": "En la ejecución de BUNKAI, los movimientos de transición y el control son parte de la evaluación.",
+      "respuesta": true,
+      "aclaracion": "Transición y control en BUNKAI"
+    },
+    {
+      "numero": 246,
+      "categoria": "kata",
+      "pregunta": "Fuerza, Velocidad y Equilibrio son los criterios de evaluación para Kata y BUNKAI.",
+      "respuesta": true,
+      "aclaracion": "Criterios principales"
+    },
+    {
+      "numero": 247,
+      "categoria": "kata",
+      "pregunta": "La inconsciencia simulada durante más de 2 segundos de tiempo en el BUNKAI se considera falta.",
+      "respuesta": false,
+      "aclaracion": "Son 3 segundos"
+    },
+    {
+      "numero": 248,
+      "categoria": "kata",
+      "pregunta": "Al BUNKAI se le debe dar la misma importancia que al Kata en sí.",
+      "respuesta": true,
+      "aclaracion": "Misma importancia"
+    },
+    {
+      "numero": 249,
+      "categoria": "kata",
+      "pregunta": "El saludo excesivo antes de comenzar la ejecución se considera falta.",
+      "respuesta": true,
+      "aclaracion": "Saludo excesivo = falta"
+    },
+    {
+      "numero": 250,
+      "categoria": "kata",
+      "pregunta": "Causar lesión por falta de técnica de control durante el BUNKAI es una descalificación.",
+      "respuesta": true,
+      "aclaracion": "Falta control = descalificación"
+    },
+    {
+      "numero": 251,
+      "categoria": "kata",
+      "pregunta": "No anunciar el Kata se considera descalificación.",
+      "respuesta": false,
+      "aclaracion": "Es falta pero NO descalificación"
+    },
+    {
+      "numero": 252,
+      "categoria": "kata",
+      "pregunta": "Ejecutar el Kata incorrecto o anunciar el Kata incorrecto conlleva la descalificación.",
+      "respuesta": true,
+      "aclaracion": "Kata incorrecto = descalificación"
+    },
+    {
+      "numero": 253,
+      "categoria": "kata",
+      "pregunta": "Dar pisotones o palmadas en el pecho, brazos o Karategui, será tenido en cuenta por los jueces a la hora de tomar una decisión.",
+      "respuesta": true,
+      "aclaracion": "Tenido en cuenta por jueces"
+    },
+    {
+      "numero": 254,
+      "categoria": "kata",
+      "pregunta": "Un competidor no será descalificado si hace una pausa clara o se detiene en la ejecución durante varios segundos.",
+      "respuesta": false,
+      "aclaracion": "Sí descalificación"
+    },
+    {
+      "numero": 255,
+      "categoria": "kata",
+      "pregunta": "Al BUNKAI no se le debe dar la misma importancia que al Kata en sí.",
+      "respuesta": false,
+      "aclaracion": "Misma importancia"
+    },
+    {
+      "numero": 256,
+      "categoria": "kata",
+      "pregunta": "El Kata debe comenzar de cara a los jueces.",
+      "respuesta": true,
+      "aclaracion": "De cara a jueces"
+    },
+    {
+      "numero": 257,
+      "categoria": "kata",
+      "pregunta": "El uso de indicaciones audibles de cualquier otra persona, incluyendo otros miembros del equipo, se considera falta.",
+      "respuesta": true,
+      "aclaracion": "Indicaciones = falta"
+    },
+    {
+      "numero": 258,
+      "categoria": "kata",
+      "pregunta": "Si el cinturón del competidor se cae durante la ejecución del Kata, el competidor será descalificado.",
+      "respuesta": false,
+      "aclaracion": "No descalificación"
+    },
+    {
+      "numero": 259,
+      "categoria": "kata",
+      "pregunta": "Es responsabilidad del entrenador o competidor notificar el nombre y el número del Kata a la mesa de puntuación antes de cada ronda.",
+      "respuesta": true,
+      "aclaracion": "Responsabilidad notificar"
+    },
+    {
+      "numero": 260,
+      "categoria": "kata",
+      "pregunta": "El número de jueces por panel puede reducirse a cinco para cualquier competición.",
+      "respuesta": false,
+      "aclaracion": "Solo para no-ranking WKF"
+    },
+    {
+      "numero": 261,
+      "categoria": "kata",
+      "pregunta": "Un Kata realizado previamente puede repetirse sólo si se utiliza como desempate.",
+      "respuesta": false,
+      "aclaracion": "Puede repetirse en ciertas circunstancias"
+    },
+    {
+      "numero": 262,
+      "categoria": "kata",
+      "pregunta": "El pantalón de Karategi podrá ser ligeramente más corto de forma que sólo cubra la mitad de la espinilla.",
+      "respuesta": false,
+      "aclaracion": "Mínimo 2/3 espinilla"
+    },
+    {
+      "numero": 263,
+      "categoria": "kata",
+      "pregunta": "El tiempo total permitido para la demostración combinada de Kata y BUNKAI es de cinco minutos.",
+      "respuesta": true,
+      "aclaracion": "5 minutos total"
+    },
+    {
+      "numero": 264,
+      "categoria": "kata",
+      "pregunta": "En el caso de que haya 3 competidores o menos se realizará un solo Kata para determinar los puestos del 1º al 3º.",
+      "respuesta": true,
+      "aclaracion": "Un solo Kata para posiciones"
+    },
+    {
+      "numero": 265,
+      "categoria": "kata",
+      "pregunta": "Los jueces de un encuentro de Kata no pueden tener la misma nacionalidad que ninguno de los competidores.",
+      "respuesta": true,
+      "aclaracion": "Sin misma nacionalidad"
+    },
+    {
+      "numero": 266,
+      "categoria": "kata",
+      "pregunta": "Aunque las cintas y otros adornos para el pelo no están permitidos en kumité, sí lo están en Kata.",
+      "respuesta": false,
+      "aclaracion": "Tampoco en Kata"
+    },
+    {
+      "numero": 267,
+      "categoria": "kata",
+      "pregunta": "En los encuentros por medallas en la competición de Kata por equipos, éstos realizarán una demostración del significado del Kata (BUNKAI).",
+      "respuesta": true,
+      "aclaracion": "BUNKAI en medallas"
+    },
+    {
+      "numero": 268,
+      "categoria": "kata",
+      "pregunta": "No es posible repetir un Kata en el sistema eliminatorio Round-Robin o Sistema de todos contra todos.",
+      "respuesta": false,
+      "aclaracion": "Sí es posible"
+    },
+    {
+      "numero": 269,
+      "categoria": "kata",
+      "pregunta": "Para las competiciones que no cuenten para el Ranking Mundial WKF o para la clasificación Olímpica, el número de jueces podrá reducirse a 5.",
+      "respuesta": true,
+      "aclaracion": "Reducción a 5 jueces"
+    },
+    {
+      "numero": 270,
+      "categoria": "kata",
+      "pregunta": "El mismo Kata nunca podrá ser ejecutado dos veces seguidas en el sistema Round-robin o Sistema de todos contra todos.",
+      "respuesta": true,
+      "aclaracion": "No dos veces seguidas"
+    },
+    {
+      "numero": 271,
+      "categoria": "kata",
+      "pregunta": "Si un competidor ya clasificado es descalificado por mala conducta al final de la ronda Round-robin o Sistema de todos contra todos (SHIKKAKU), el oponente de semifinales accederá a la final de forma directa.",
+      "respuesta": true,
+      "aclaracion": "Acceso directo a final"
+    },
+    {
+      "numero": 272,
+      "categoria": "kata",
+      "pregunta": "Las competidoras deberán llevar una camiseta blanca lisa debajo de la chaqueta de Karate.",
+      "respuesta": false,
+      "aclaracion": "Es opcional"
+    },
+    {
+      "numero": 273,
+      "categoria": "kata",
+      "pregunta": "Las competidoras pueden, si lo desean, llevar una camiseta blanca lisa debajo de la chaqueta de Karate.",
+      "respuesta": true,
+      "aclaracion": "Opcional para competidoras"
+    },
+    {
+      "numero": 274,
+      "categoria": "kata",
+      "pregunta": "Se prohíbe el uso de indumentaria, ropa o equipamiento no autorizado.",
+      "respuesta": true,
+      "aclaracion": "Prohibido no autorizado"
+    },
+    {
+      "numero": 275,
+      "categoria": "kata",
+      "pregunta": "El uso de señales audibles no se considera falta.",
+      "respuesta": false,
+      "aclaracion": "SÍ es falta"
+    },
+    {
+      "numero": 276,
+      "categoria": "kata",
+      "pregunta": "La exhalación inapropiada no es una señal audible.",
+      "respuesta": false,
+      "aclaracion": "SÍ es señal audible"
+    },
+    {
+      "numero": 277,
+      "categoria": "kata",
+      "pregunta": "No ejecutar completamente un bloqueo o golpear fuera del objetivo se considera falta.",
+      "respuesta": true,
+      "aclaracion": "Ejecución incompleta = falta"
+    },
+    {
+      "numero": 278,
+      "categoria": "kata",
+      "pregunta": "Causar lesión por falta de técnica de control durante el BUNKAI está permitido.",
+      "respuesta": false,
+      "aclaracion": "Resulta en descalificación"
+    },
+    {
+      "numero": 279,
+      "categoria": "kata",
+      "pregunta": "Los miembros del equipo deben demostrar competencia en todos los aspectos de la ejecución del Kata, así como sincronización.",
+      "respuesta": true,
+      "aclaracion": "Competencia y sincronización"
+    },
+    {
+      "numero": 280,
+      "categoria": "kata",
+      "pregunta": "Los jueces tendrán en cuenta las órdenes de inicio y finalización de la ejecución a la hora de tomar una decisión.",
+      "respuesta": false,
+      "aclaracion": "Evaluación entre saludos"
+    },
+    {
+      "numero": 281,
+      "categoria": "kata",
+      "pregunta": "Es responsabilidad del Presidente de la Federación Nacional asegurarse de que el Kata notificado a la mesa de puntuación es apropiado para esa ronda en particular.",
+      "respuesta": false,
+      "aclaracion": "Responsabilidad competidor"
+    },
+    {
+      "numero": 282,
+      "categoria": "kata",
+      "pregunta": "Al realizar BUNKAI, después de ser derribado, el competidor debe levantarse sobre una rodilla o ponerse de pie antes de 2 segundos.",
+      "respuesta": true,
+      "aclaracion": "2 segundos máximo"
+    },
+    {
+      "numero": 283,
+      "categoria": "kata",
+      "pregunta": "Omitir o añadir movimientos o cambiar sustancialmente la ejecución de su forma original es una descalificación.",
+      "respuesta": true,
+      "aclaracion": "Cambios = descalificación"
+    },
+    {
+      "numero": 284,
+      "categoria": "kata",
+      "pregunta": "La celebración excesiva y las manifestaciones políticas o religiosas se consideran descalificación para kumité, pero no para Kata.",
+      "respuesta": false,
+      "aclaracion": "En AMBOS"
+    },
+    {
+      "numero": 285,
+      "categoria": "kata",
+      "pregunta": "El competidor debe esperar en el tatami el anuncio de la evaluación al final de la actuación.",
+      "respuesta": true,
+      "aclaracion": "Esperar en tatami"
+    },
+    {
+      "numero": 286,
+      "categoria": "kata",
+      "pregunta": "Los competidores pueden seleccionar cualquier Kata de la lista oficial de Katas.",
+      "respuesta": true,
+      "aclaracion": "Lista oficial"
+    },
+    {
+      "numero": 287,
+      "categoria": "kata",
+      "pregunta": "El equipo que no realice el saludo al principio y al final de la actuación será descalificado.",
+      "respuesta": true,
+      "aclaracion": "Saludo obligatorio"
+    },
+    {
+      "numero": 288,
+      "categoria": "kata",
+      "pregunta": "Se permite el uso de armas tradicionales, equipo auxiliar o indumentaria adicional.",
+      "respuesta": false,
+      "aclaracion": "No permitido"
+    },
+    {
+      "numero": 289,
+      "categoria": "kata",
+      "pregunta": "La ejecución en Kata individual se evalúa desde el saludo que inicia el Kata hasta el saludo final.",
+      "respuesta": true,
+      "aclaracion": "Entre saludos"
+    },
+    {
+      "numero": 290,
+      "categoria": "kata",
+      "pregunta": "El uso de indicaciones audibles de cualquier otra persona, incluyendo otros miembros del equipo, se considera falta.",
+      "respuesta": true,
+      "aclaracion": "Indicaciones = falta"
+    },
+    {
+      "numero": 291,
+      "categoria": "kata",
+      "pregunta": "Si el cinturón del competidor se cae durante la ejecución del Kata, el competidor será descalificado.",
+      "respuesta": false,
+      "aclaracion": "No descalificación"
+    },
+    {
+      "numero": 292,
+      "categoria": "kata",
+      "pregunta": "Es responsabilidad del entrenador o competidor notificar el nombre y el número del Kata a la mesa de puntuación antes de cada ronda.",
+      "respuesta": true,
+      "aclaracion": "Responsabilidad notificar"
+    },
+    {
+      "numero": 293,
+      "categoria": "kata",
+      "pregunta": "El número de jueces por panel puede reducirse a cinco para cualquier competición.",
+      "respuesta": false,
+      "aclaracion": "Solo no-ranking WKF"
+    },
+    {
+      "numero": 294,
+      "categoria": "kata",
+      "pregunta": "Un Kata realizado previamente puede repetirse sólo si se utiliza como desempate.",
+      "respuesta": false,
+      "aclaracion": "Puede repetirse"
+    },
+    {
+      "numero": 295,
+      "categoria": "kata",
+      "pregunta": "El pantalón de Karategi podrá ser ligeramente más corto de forma que sólo cubra la mitad de la espinilla.",
+      "respuesta": false,
+      "aclaracion": "Mínimo 2/3"
+    },
+    {
+      "numero": 296,
+      "categoria": "kata",
+      "pregunta": "El tiempo total permitido para la demostración combinada de Kata y BUNKAI es de cinco minutos.",
+      "respuesta": true,
+      "aclaracion": "5 minutos"
+    },
+    {
+      "numero": 297,
+      "categoria": "kata",
+      "pregunta": "En el caso de que haya 3 competidores o menos se realizará un solo Kata para determinar los puestos del 1º al 3º.",
+      "respuesta": true,
+      "aclaracion": "Un solo Kata"
+    },
+    {
+      "numero": 298,
+      "categoria": "kata",
+      "pregunta": "Los jueces de un encuentro de Kata no pueden tener la misma nacionalidad que ninguno de los competidores.",
+      "respuesta": true,
+      "aclaracion": "Sin misma nacionalidad"
+    },
+    {
+      "numero": 299,
+      "categoria": "kata",
+      "pregunta": "Aunque las cintas y otros adornos para el pelo no están permitidos en kumité, sí lo están en Kata.",
+      "respuesta": false,
+      "aclaracion": "Tampoco en Kata"
+    },
+    {
+      "numero": 300,
+      "categoria": "kata",
+      "pregunta": "En los encuentros por medallas en la competición de Kata por equipos, éstos realizarán una demostración del significado del Kata (BUNKAI).",
+      "respuesta": true,
+      "aclaracion": "BUNKAI en medallas"
+    },
+    {
+      "numero": 301,
+      "categoria": "kata",
+      "pregunta": "No es posible repetir un Kata en el sistema eliminatorio Round-Robin o Sistema de todos contra todos.",
+      "respuesta": false,
+      "aclaracion": "Sí es posible"
+    },
+    {
+      "numero": 302,
+      "categoria": "kata",
+      "pregunta": "Para las competiciones que no cuenten para el Ranking Mundial WKF o para la clasificación Olímpica, el número de jueces podrá reducirse a 5.",
+      "respuesta": true,
+      "aclaracion": "Reducción a 5"
+    },
+    {
+      "numero": 303,
+      "categoria": "kata",
+      "pregunta": "El mismo Kata nunca podrá ser ejecutado dos veces seguidas en el sistema Round-robin o Sistema de todos contra todos.",
+      "respuesta": true,
+      "aclaracion": "No dos veces seguidas"
+    },
+    {
+      "numero": 304,
+      "categoria": "kata",
+      "pregunta": "Si un competidor ya clasificado es descalificado por mala conducta al final de la ronda Round-robin o Sistema de todos contra todos (SHIKKAKU), el oponente de semifinales accederá a la final de forma directa.",
+      "respuesta": true,
+      "aclaracion": "Acceso directo"
+    },
+    {
+      "numero": 305,
+      "categoria": "kata",
+      "pregunta": "Las competidoras deberán llevar una camiseta blanca lisa debajo de la chaqueta de Karate.",
+      "respuesta": false,
+      "aclaracion": "Opcional"
+    },
+    {
+      "numero": 306,
+      "categoria": "kata",
+      "pregunta": "Las competidoras pueden, si lo desean, llevar una camiseta blanca lisa debajo de la chaqueta de Karate.",
+      "respuesta": true,
+      "aclaracion": "Opcional"
+    },
+    {
+      "numero": 307,
+      "categoria": "kata",
+      "pregunta": "Se prohíbe el uso de indumentaria, ropa o equipamiento no autorizado.",
+      "respuesta": true,
+      "aclaracion": "Prohibido"
+    },
+    {
+      "numero": 308,
+      "categoria": "kata",
+      "pregunta": "Existen 10 criterios para la evaluación del Kata.",
+      "respuesta": true,
+      "aclaracion": "10 criterios"
+    },
+    {
+      "numero": 309,
+      "categoria": "kata",
+      "pregunta": "El movimiento de transición es uno de los criterios de evaluación para la ejecución de Kata, pero no para BUNKAI.",
+      "respuesta": true,
+      "aclaracion": "Solo Kata"
+    },
+    {
+      "numero": 310,
+      "categoria": "kata",
+      "pregunta": "En la ejecución de BUNKAI, los movimientos de transición y el control son parte de la evaluación.",
+      "respuesta": true,
+      "aclaracion": "Transición y control"
+    },
+    {
+      "numero": 311,
+      "categoria": "kata",
+      "pregunta": "Fuerza, Velocidad y Equilibrio son los criterios de evaluación para Kata y BUNKAI.",
+      "respuesta": true,
+      "aclaracion": "Criterios principales"
+    },
+    {
+      "numero": 312,
+      "categoria": "kata",
+      "pregunta": "La inconsciencia simulada durante más de 2 segundos de tiempo en el BUNKAI se considera falta.",
+      "respuesta": false,
+      "aclaracion": "Son 3 segundos"
+    },
+    {
+      "numero": 313,
+      "categoria": "kata",
+      "pregunta": "Al BUNKAI se le debe dar la misma importancia que al Kata en sí.",
+      "respuesta": true,
+      "aclaracion": "Misma importancia"
+    },
+    {
+      "numero": 314,
+      "categoria": "kata",
+      "pregunta": "La ejecución en Kata individual se evalúa desde el saludo que inicia el Kata hasta el saludo final.",
+      "respuesta": true,
+      "aclaracion": "Entre saludos"
+    }
+  ]
+}

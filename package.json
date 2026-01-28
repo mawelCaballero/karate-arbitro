@@ -4,7 +4,6 @@
   "scripts": {
     "ng": "ng",
     "build": "ng build --configuration production",
-    "heroku-postbuild": "npm run build",
     "start": "node server.js",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
@@ -26,7 +25,6 @@
   "dependencies": {
     "@angular/common": "^21.0.0",
     "@angular/compiler": "^21.0.0",
-    "@angular/cli": "^21.0.0",
     "@angular/core": "^21.0.0",
     "@angular/forms": "^21.0.0",
     "@angular/platform-browser": "^21.0.0",
