@@ -1,1 +1,277 @@
 /* You can add global styles to this file, and also import other style files */
+
+// Global Variables
+:root {
+  --primary-color: #dc3545;
+  --secondary-color: #1a1a1a;
+  --dark-gradient: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+  --shadow-sm: 0 2px 10px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 5px 20px rgba(0, 0, 0, 0.15);
+  --shadow-lg: 0 10px 30px rgba(0, 0, 0, 0.2);
+  --transition: all 0.3s ease;
+}
+
+// Global Styles
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f8f9fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+button {
+  font-family: inherit;
+}
+
+// Utility Classes
+.karate-logo {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.page-header {
+  background: var(--dark-gradient);
+  color: white;
+  padding: 3rem 0;
+  margin-bottom: 2rem;
+  box-shadow: var(--shadow-md);
+
+  h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+  }
+
+  p {
+    font-size: 1.1rem;
+    opacity: 0.9;
+  }
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #1a1a1a;
+  margin-bottom: 1rem;
+}
+
+.section-subtitle {
+  font-size: 1.2rem;
+  color: #6c757d;
+}
+
+// Card Styles
+.card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition);
+
+  &:hover {
+    box-shadow: var(--shadow-md);
+  }
+
+  &.shadow {
+    box-shadow: var(--shadow-md);
+
+    &:hover {
+      box-shadow: var(--shadow-lg);
+    }
+  }
+}
+
+// Button Styles
+.btn {
+  border-radius: 50px;
+  padding: 0.6rem 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: var(--transition);
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+  }
+
+  &.btn-primary {
+    background: var(--primary-color);
+    border: none;
+
+    &:hover {
+      background: #c82333;
+    }
+  }
+
+  &.btn-outline-primary {
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+
+    &:hover {
+      background: var(--primary-color);
+      color: white;
+    }
+  }
+
+  &.btn-danger {
+    background: var(--primary-color);
+    border: none;
+
+    &:hover {
+      background: #c82333;
+    }
+  }
+
+  &.btn-outline-danger {
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+
+    &:hover {
+      background: var(--primary-color);
+      color: white;
+    }
+  }
+}
+
+// Form Styles
+.form-control {
+  border-radius: 10px;
+  padding: 0.75rem 1rem;
+  border: 2px solid #e9ecef;
+  transition: var(--transition);
+
+  &:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
+  }
+}
+
+.form-label {
+  font-weight: 600;
+  color: #495057;
+  margin-bottom: 0.5rem;
+}
+
+// Auth Pages Common Styles
+.auth-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--dark-gradient);
+  position: relative;
+  overflow: hidden;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background:
+      radial-gradient(circle at 20% 50%, rgba(220, 53, 69, 0.3) 0%, transparent 50%),
+      radial-gradient(circle at 80% 80%, rgba(220, 53, 69, 0.2) 0%, transparent 50%);
+    animation: backgroundAnimation 20s ease infinite;
+  }
+
+  .auth-card {
+    position: relative;
+    z-index: 2;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+
+    .auth-header {
+      background: var(--dark-gradient);
+      color: white;
+      padding: 2rem;
+      text-align: center;
+
+      h2 {
+        font-weight: 800;
+        margin-bottom: 0.5rem;
+      }
+
+      p {
+        opacity: 0.9;
+        margin-bottom: 0;
+      }
+    }
+
+    .auth-body {
+      padding: 2.5rem;
+    }
+  }
+}
+
+@keyframes backgroundAnimation {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+
+// Badge Styles
+.badge {
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+// Alert Styles
+.alert {
+  border-radius: 10px;
+  border: none;
+
+  &.alert-success {
+    background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+    color: white;
+  }
+}
+
+// Animations
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-out;
+}
+
+// Scrollbar
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+  border-radius: 5px;
+
+  &:hover {
+    background: #c82333;
+  }
+}
