@@ -26,6 +26,7 @@
   "dependencies": {
     "@angular/common": "^21.0.0",
     "@angular/compiler": "^21.0.0",
+    "@angular/cli": "^21.0.0",
     "@angular/core": "^21.0.0",
     "@angular/forms": "^21.0.0",
     "@angular/platform-browser": "^21.0.0",
@@ -36,7 +37,6 @@
   },
   "devDependencies": {
     "@angular/build": "^21.0.0",
-    "@angular/cli": "^21.0.0",
     "@angular/compiler-cli": "^21.0.0",
     "jsdom": "^27.1.0",
     "typescript": "~5.9.2",
