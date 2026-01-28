@@ -30,7 +30,7 @@ interface RawQuestion {
   pregunta: string;
   respuesta: boolean | null;
   aclaracion?: string;
-  tipo?: 'opcion_multiple';
+  tipo?: 'opcion_multiple' | 'verdadero_falso';
   opciones?: {
     letra: string;
     texto: string;
@@ -102,7 +102,11 @@ export class App implements OnInit {
   protected readonly score = computed(() => {
     const answers = this.answers();
     return this.examQuestions().reduce((count, question) => {
-      return answers[question.id] === question.answer ? count + 1 : count;
+      const userAnswer = answers[question.id];
+      if (userAnswer === null || userAnswer === undefined) {
+        return count;
+      }
+      return this.isAnswerCorrect(question, userAnswer) ? count + 1 : count;
     }, 0);
   });
 
