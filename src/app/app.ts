@@ -7,8 +7,16 @@ interface Question {
   id: number;
   category: CategoryKey;
   text: string;
-  answer: boolean;
+  answer: boolean | string;
   explanation: string;
+  type: 'true_false' | 'multiple';
+  options?: QuestionOption[];
+}
+
+interface QuestionOption {
+  letter: string;
+  text: string;
+  correct: boolean;
 }
 
 const TOTAL_QUESTIONS = 20;
@@ -20,8 +28,14 @@ interface RawQuestion {
   numero: number;
   categoria: RawCategory;
   pregunta: string;
-  respuesta: boolean;
+  respuesta: boolean | null;
   aclaracion?: string;
+  tipo?: 'opcion_multiple';
+  opciones?: {
+    letra: string;
+    texto: string;
+    correcta: boolean;
+  }[];
 }
 
 interface RawExamData {
@@ -52,7 +66,7 @@ export class App implements OnInit {
   protected readonly questionBank = signal<Question[]>([]);
   protected readonly examQuestions = signal<Question[]>([]);
   protected readonly currentIndex = signal(0);
-  protected readonly answers = signal<Record<number, boolean | null>>({});
+  protected readonly answers = signal<Record<number, boolean | string | null>>({});
   protected readonly isAnimating = signal(false);
   protected readonly swipeDirection = signal<'left' | 'right' | ''>('');
   protected readonly enterDirection = signal<'left' | 'right' | ''>('');
@@ -100,12 +114,14 @@ export class App implements OnInit {
         if (userAnswer === null || userAnswer === undefined) {
           return null;
         }
-        if (userAnswer === question.answer) {
+        if (this.isAnswerCorrect(question, userAnswer)) {
           return null;
         }
         return { question, userAnswer };
       })
-      .filter((item): item is { question: Question; userAnswer: boolean } => item !== null);
+      .filter(
+        (item): item is { question: Question; userAnswer: boolean | string } => item !== null,
+      );
   });
 
   ngOnInit() {
@@ -125,7 +141,7 @@ export class App implements OnInit {
       return;
     }
     const picked = this.shuffleArray(this.availableQuestions()).slice(0, TOTAL_QUESTIONS);
-    const freshAnswers: Record<number, boolean | null> = {};
+    const freshAnswers: Record<number, boolean | string | null> = {};
     picked.forEach((question) => {
       freshAnswers[question.id] = null;
     });
@@ -174,13 +190,6 @@ export class App implements OnInit {
     this.goToIndex(this.currentIndex() + 1, 'left');
   }
 
-  protected answerLabel(value: boolean | null) {
-    if (value === null || value === undefined) {
-      return 'Sin respuesta';
-    }
-    return value ? 'Verdadero' : 'Falso';
-  }
-
   protected hasAnsweredCurrent() {
     const question = this.currentQuestion();
     if (!question) {
@@ -188,6 +197,44 @@ export class App implements OnInit {
     }
     const answer = this.answers()[question.id];
     return answer !== null && answer !== undefined;
+  }
+
+  protected isMultiple(question: Question) {
+    return question.type === 'multiple';
+  }
+
+  protected selectOption(optionLetter: string) {
+    const question = this.currentQuestion();
+    if (!question) {
+      return;
+    }
+    this.answers.update((answers) => ({ ...answers, [question.id]: optionLetter }));
+    if (this.currentIndex() < this.examQuestions().length - 1) {
+      this.goToIndex(this.currentIndex() + 1, 'left');
+    }
+  }
+
+  protected optionLabel(option: QuestionOption) {
+    return `${option.letter}. ${option.text}`;
+  }
+
+  protected displayAnswer(question: Question, value: boolean | string | null) {
+    if (value === null || value === undefined) {
+      return 'Sin respuesta';
+    }
+    if (question.type === 'multiple') {
+      const option = question.options?.find((item) => item.letter === value);
+      return option ? `${option.letter}. ${option.text}` : `${value}`;
+    }
+    return value ? 'Verdadero' : 'Falso';
+  }
+
+  protected displayCorrectAnswer(question: Question) {
+    if (question.type === 'multiple') {
+      const option = question.options?.find((item) => item.correct);
+      return option ? `${option.letter}. ${option.text}` : 'Sin definir';
+    }
+    return question.answer ? 'Verdadero' : 'Falso';
   }
 
   private async loadQuestions() {
@@ -203,12 +250,33 @@ export class App implements OnInit {
           if (!category) {
             return null;
           }
+          if (item.tipo === 'opcion_multiple' && item.opciones?.length) {
+            const options = item.opciones.map((option) => ({
+              letter: option.letra,
+              text: option.texto,
+              correct: option.correcta,
+            }));
+            const correct = options.find((option) => option.correct);
+            return {
+              id: item.numero,
+              category,
+              text: item.pregunta,
+              answer: correct?.letter ?? '',
+              explanation: item.aclaracion ?? '',
+              type: 'multiple',
+              options,
+            };
+          }
+          if (item.respuesta === null) {
+            return null;
+          }
           return {
             id: item.numero,
             category,
             text: item.pregunta,
-            answer: item.respuesta,
+            answer: item.respuesta === true,
             explanation: item.aclaracion ?? '',
+            type: 'true_false',
           };
         })
         .filter((item): item is Question => item !== null);
@@ -217,6 +285,13 @@ export class App implements OnInit {
       console.error('Error cargando preguntas:', error);
       this.questionBank.set([]);
     }
+  }
+
+  private isAnswerCorrect(question: Question, userAnswer: boolean | string) {
+    if (question.type === 'multiple') {
+      return userAnswer === question.answer;
+    }
+    return userAnswer === question.answer;
   }
 
   private goToIndex(index: number, direction: 'left' | 'right') {

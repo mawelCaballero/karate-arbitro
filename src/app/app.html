@@ -76,22 +76,37 @@
             <span class="chip">{{ question.category | titlecase }}</span>
             <h2>{{ question.text }}</h2>
           </article>
-          <div class="answer-row">
-            <button
-              class="answer"
-              [class.selected]="answers()[question.id] === true"
-              (click)="answerCurrent(true)"
-            >
-              Verdadero
-            </button>
-            <button
-              class="answer alt"
-              [class.selected]="answers()[question.id] === false"
-              (click)="answerCurrent(false)"
-            >
-              Falso
-            </button>
-          </div>
+          @if (isMultiple(question)) {
+            <div class="answer-row">
+              @for (option of question.options ?? []; track option.letter) {
+                <button
+                  class="answer"
+                  [class.selected]="answers()[question.id] === option.letter"
+                  (click)="selectOption(option.letter)"
+                >
+                  <span class="option-letter">{{ option.letter }}</span>
+                  <span class="option-text">{{ option.text }}</span>
+                </button>
+              }
+            </div>
+          } @else {
+            <div class="answer-row">
+              <button
+                class="answer"
+                [class.selected]="answers()[question.id] === true"
+                (click)="answerCurrent(true)"
+              >
+                Verdadero
+              </button>
+              <button
+                class="answer alt"
+                [class.selected]="answers()[question.id] === false"
+                (click)="answerCurrent(false)"
+              >
+                Falso
+              </button>
+            </div>
+          }
           <div class="nav-row">
             <button class="ghost" [disabled]="currentIndex() === 0" (click)="previousQuestion()">
               Anterior
@@ -132,8 +147,8 @@
                 <div class="wrong-item">
                   <div class="wrong-question">{{ item.question.text }}</div>
                   <div class="wrong-meta">
-                    Tu respuesta: {{ answerLabel(item.userAnswer) }} · Correcta:
-                    {{ answerLabel(item.question.answer) }}
+                    Tu respuesta: {{ displayAnswer(item.question, item.userAnswer) }} · Correcta:
+                    {{ displayCorrectAnswer(item.question) }}
                   </div>
                   <div class="wrong-explain">{{ item.question.explanation }}</div>
                 </div>
