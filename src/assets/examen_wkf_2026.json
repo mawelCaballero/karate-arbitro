@@ -27,40 +27,46 @@
       "categoria": "kumite",
       "pregunta": "Se puede llevar voluntariamente cualquier tocado religioso.",
       "respuesta": true,
-      "aclaracion": "Debe ser aprobado por WKF según Art. 2 Reglamento 2026. Los tocados religiosos son permitidos de forma voluntaria siempre que sean previamente autorizados por la federación. Deben ser seguros y no interferir con la práctica.",
-      "tipo": "verdadero_falso"
+      "aclaracion": "VERDADERO. Los contendientes podrán usar una prenda de cabeza de carácter religioso (voluntaria) aprobada por la WKF: un pañuelo negro liso que cubra el cabello, dejando la zona de la garganta al descubierto. Artículo 2.2.5 Normativa WKF 2026.",
+      "tipo": "verdadero_falso",
+      "verificado_normativa_2026": true
     },
     {
       "numero": 2,
       "categoria": "kumite",
       "pregunta": "La chaqueta de Karate-Gi debe tener una longitud superior a tres cuartos del muslo.",
       "respuesta": false,
-      "aclaracion": "La chaqueta debe cubrir las caderas pero NO MÁS de 3/4 del muslo cuando se está de pie en posición natural. Si es más larga interfiere con las técnicas de pierna. Longitud adecuada: hasta mitad del muslo aproximadamente.",
-      "tipo": "verdadero_falso"
+      "aclaracion": "FALSO. La chaqueta debe cubrir las caderas pero NO MÁS de 3/4 del muslo. Si es más larga interfiere con las técnicas de pierna. La longitud correcta es aproximadamente hasta la mitad del muslo. Artículo 2.2.1 Normativa WKF 2026.",
+      "tipo": "verdadero_falso",
+      "verificado_normativa_2026": true
     },
     {
       "numero": 3,
       "categoria": "kumite",
       "pregunta": "Los pantalones de Karate-Gi deben cubrir al menos dos tercios de la espinilla.",
       "respuesta": true,
-      "aclaracion": "Los pantalones deben cubrir al menos 2/3 de la espinilla (medida desde el tobillo). Este requisito mínimo asegura protección adecuada y permite verificar el uso correcto de protectores de espinilla.",
-      "tipo": "verdadero_falso"
+      "aclaracion": "VERDADERO. Los pantalones deben cubrir al menos 2/3 de la espinilla medida desde el tobillo. Este requisito asegura protección adecuada y permite verificar el uso correcto de protectores de espinilla. Artículo 2.2.1 Normativa WKF 2026.",
+      "tipo": "verdadero_falso",
+      "verificado_normativa_2026": true
     },
     {
       "numero": 4,
       "categoria": "kumite",
       "pregunta": "La manga de la chaqueta de Karate-Gi no debe ser más larga que el pliegue de la muñeca.",
       "respuesta": true,
-      "aclaracion": "Límites de manga: NO más larga que el pliegue de la muñeca (límite superior) Y NO más corta que la mitad del antebrazo (límite inferior). Esto asegura movilidad y permite a los jueces ver las técnicas claramente.",
-      "tipo": "verdadero_falso"
+      "aclaracion": "VERDADERO. La longitud máxima de las mangas de la chaqueta no debe pasar de la doblez de la muñeca y no debe ser más corta que la mitad del antebrazo. Esto asegura movilidad y permite a los jueces ver las técnicas claramente. Artículo 2.2.1 Normativa WKF 2026.",
+      "tipo": "verdadero_falso",
+      "verificado_normativa_2026": true
     },
     {
       "numero": 5,
       "categoria": "kumite",
       "pregunta": "Si las mangas de la chaqueta de Karate-Gi de un atleta son demasiado largas y no se puede encontrar un recambio adecuado a tiempo, el árbitro puede permitirle que se las suba por dentro.",
-      "respuesta": true,
-      "aclaracion": "Solución temporal",
-      "tipo": "verdadero_falso"
+      "respuesta": false,
+      "aclaracion": "FALSO. Las mangas de la chaqueta NO SE PUEDEN REMANGAR de ninguna manera, ni por dentro ni por fuera. Es responsabilidad del competidor asegurarse de que su uniforme cumpla con las regulaciones antes de la competición. Artículo 2.2.1: 'Las mangas de la chaqueta no se pueden remangar.' (Normativa WKF 2026)",
+      "tipo": "verdadero_falso",
+      "verificado_normativa_2026": true,
+      "ERROR_EN_EXAMEN_ORIGINAL": true
     },
     {
       "numero": 6,
@@ -75,88 +81,99 @@
       "categoria": "kumite",
       "pregunta": "Para los atletas menores de 14 años, es obligatorio el uso del casco protector homologado por la WKF.",
       "respuesta": true,
-      "aclaracion": "Obligatorio <14 años",
-      "tipo": "verdadero_falso"
+      "aclaracion": "VERDADERO. Para atletas menores de 14 años es OBLIGATORIO el uso del casco protector homologado por la WKF. Esta medida de seguridad protege a los competidores más jóvenes de lesiones en la cabeza. Artículo 2.3 Normativa WKF 2026.",
+      "tipo": "verdadero_falso",
+      "verificado_normativa_2026": true
     },
     {
       "numero": 8,
       "categoria": "kumite",
       "pregunta": "En los encuentros Senior, un ligero 'toque de guante' en la garganta no tiene por qué dar lugar a una advertencia o penalización, siempre que no haya lesión real.",
       "respuesta": true,
-      "aclaracion": "DISTINCIÓN CRÍTICA PARA EL EXAMEN: Existe diferencia entre 'ligero toque de guante' y 'contacto en garganta'. En categoría SENIOR, un roce superficial controlado con el guante (sin impacto real) en técnicas JODAN no requiere advertencia si NO hay lesión. Sin embargo, cualquier CONTACTO con presión o impacto en la garganta SÍ debe ser sancionado. Esta matización solo aplica a Senior.",
-      "tipo": "verdadero_falso"
+      "aclaracion": "VERDADERO. En encuentros SENIOR, un ligero 'toque de guante' en la garganta no tiene por qué dar lugar a advertencia si NO hay lesión real. IMPORTANTE: Existe diferencia entre 'ligero toque de guante' (tolerado en Senior) y 'contacto con presión/impacto en garganta' (siempre prohibido). Esta tolerancia SOLO aplica a categoría Senior. Artículo 10.4.6 Normativa WKF 2026.",
+      "tipo": "verdadero_falso",
+      "verificado_normativa_2026": true
     },
     {
       "numero": 9,
       "categoria": "kumite",
       "pregunta": "Una patada en la ingle no dará lugar a penalización siempre que el infractor no lo haya hecho intencionadamente.",
       "respuesta": false,
-      "aclaracion": "Zona prohibida siempre",
-      "tipo": "verdadero_falso"
+      "aclaracion": "FALSO. Una patada en la ingle SIEMPRE dará lugar a penalización, independientemente de la intención del infractor. La ingle es zona PROHIBIDA y cualquier contacto debe ser sancionado por seguridad. Artículo 10.4 Normativa WKF 2026.",
+      "tipo": "verdadero_falso",
+      "verificado_normativa_2026": true
     },
     {
       "numero": 10,
       "categoria": "kumite",
       "pregunta": "HANSOKU-CHUI se da cuando el potencial del atleta para ganar ha sido seriamente reducido por la falta del oponente.",
       "respuesta": true,
-      "aclaracion": "HANSOKU-CHUI es la penalización más grave antes de la descalificación. Se da cuando una falta seria reduce significativamente las posibilidades del oponente de ganar. Otorga 6 puntos al oponente afectado. Puede llevar a HANSOKU si se repite.",
-      "tipo": "verdadero_falso"
+      "aclaracion": "VERDADERO. HANSOKU-CHUI se da cuando el potencial del atleta para ganar ha sido SERIAMENTE REDUCIDO por la falta del oponente. También se da por acumulación de tres CHUI por reincidencia. Otorga 6 puntos al oponente afectado. Artículo 10 Normativa WKF 2026.",
+      "tipo": "verdadero_falso",
+      "verificado_normativa_2026": true
     },
     {
       "numero": 11,
       "categoria": "kumite",
       "pregunta": "HANSOKU se impone por infracciones graves de las normas.",
       "respuesta": true,
-      "aclaracion": "Descalificación combate",
-      "tipo": "verdadero_falso"
+      "aclaracion": "VERDADERO. HANSOKU se impone por infracciones graves de las normas. Resulta en descalificación del COMBATE ACTUAL (no del torneo completo). Artículo 10 Normativa WKF 2026.",
+      "tipo": "verdadero_falso",
+      "verificado_normativa_2026": true
     },
     {
       "numero": 12,
       "categoria": "kumite",
       "pregunta": "SHIKKAKU sólo puede imponerse después de que se haya dado una advertencia.",
       "respuesta": false,
-      "aclaracion": "Puede ser directo",
-      "tipo": "verdadero_falso"
+      "aclaracion": "FALSO. SHIKKAKU puede imponerse DIRECTAMENTE sin advertencia previa. Se aplica cuando un competidor no obedece órdenes del árbitro, actúa maliciosamente o comete acto que perjudica el prestigio del Karate. Artículo 10 SHIKKAKU Normativa WKF 2026.",
+      "tipo": "verdadero_falso",
+      "verificado_normativa_2026": true
     },
     {
       "numero": 13,
       "categoria": "kumite",
       "pregunta": "Si un atleta actúa maliciosamente, SHIKKAKU y no HANSOKU es la penalización correcta.",
       "respuesta": true,
-      "aclaracion": "Cuando un atleta actúa MALICIOSAMENTE (con intención de dañar), la penalización correcta es SHIKKAKU (descalificación del torneo completo), NO HANSOKU (descalificación solo del combate actual). Maliciosamente implica: golpear deliberadamente con intención de lesionar, conducta violenta, ataques tras YAME ignorado deliberadamente.",
-      "tipo": "verdadero_falso"
+      "aclaracion": "VERDADERO. Si un atleta actúa MALICIOSAMENTE, SHIKKAKU (NO HANSOKU) es la penalización correcta. Comportamiento malicioso implica intención de dañar y es la falta más grave. Artículo 10 SHIKKAKU: 'Se puede aplicar cuando un competidor actúa maliciosamente.' Normativa WKF 2026.",
+      "tipo": "verdadero_falso",
+      "verificado_normativa_2026": true
     },
     {
       "numero": 14,
       "categoria": "kumite",
       "pregunta": "Si un atleta actúa maliciosamente, HANSOKU es la penalización correcta.",
       "respuesta": false,
-      "aclaracion": "Es SHIKKAKU",
-      "tipo": "verdadero_falso"
+      "aclaracion": "FALSO. Si un atleta actúa maliciosamente, la penalización correcta es SHIKKAKU, NO HANSOKU. HANSOKU es para infracciones graves pero sin malicia. SHIKKAKU es para conducta maliciosa. Artículo 10 Normativa WKF 2026.",
+      "tipo": "verdadero_falso",
+      "verificado_normativa_2026": true
     },
     {
       "numero": 15,
       "categoria": "kumite",
       "pregunta": "Se puede dar SHIKKAKU a un atleta si se considera que el comportamiento del entrenador o de los miembros no combatientes de la delegación del atleta daña el prestigio y el honor del karate-do.",
       "respuesta": true,
-      "aclaracion": "Responsabilidad por equipo",
-      "tipo": "verdadero_falso"
+      "aclaracion": "VERDADERO. Se puede dar SHIKKAKU a un atleta si el comportamiento del entrenador o miembros no combatientes de su delegación daña el prestigio y honor del karate-do. El atleta es responsable por su equipo. Artículo 10 SHIKKAKU Normativa WKF 2026.",
+      "tipo": "verdadero_falso",
+      "verificado_normativa_2026": true
     },
     {
       "numero": 16,
       "categoria": "kumite",
       "pregunta": "Si se retira el SENSHU cuando quedan menos de 15 segundos de combate, no se podrá conceder más SENSHU a ninguno de los atletas.",
       "respuesta": true,
-      "aclaracion": "Durante ATO SHIBARAKU (últimos 15 segundos), si se retira el SENSHU a un atleta, ya NO se puede conceder SENSHU a ningún atleta por el resto del combate. Esto evita manipulaciones tácticas en los momentos finales.",
-      "tipo": "verdadero_falso"
+      "aclaracion": "VERDADERO. Si se retira el SENSHU cuando quedan menos de 15 segundos (ATO SHIBARAKU), NO se podrá conceder más SENSHU a ninguno de los atletas. Esto evita manipulaciones tácticas en los momentos finales. Artículo SENSHU Normativa WKF 2026.",
+      "tipo": "verdadero_falso",
+      "verificado_normativa_2026": true
     },
     {
       "numero": 17,
       "categoria": "kumite",
       "pregunta": "Si un atleta al que se le ha concedido SENSHU recibe una advertencia por evitar el combate cuando quedan menos de 15 segundos de combate, el atleta perderá automáticamente esta ventaja.",
       "respuesta": true,
-      "aclaracion": "Pérdida automática",
-      "tipo": "verdadero_falso"
+      "aclaracion": "VERDADERO. Si un atleta con SENSHU recibe advertencia por evitar combate en los últimos 15 segundos (ATO SHIBARAKU), perderá AUTOMÁTICAMENTE esta ventaja. Penalización severa para evitar tácticas dilatorias. Artículo SENSHU Normativa WKF 2026.",
+      "tipo": "verdadero_falso",
+      "verificado_normativa_2026": true
     },
     {
       "numero": 18,
@@ -458,9 +475,11 @@
       "numero": 55,
       "categoria": "kumite",
       "pregunta": "Hay 6 formas de resolver un empate en el sistema de eliminación Round-robin o Sistema de todos contra todos con 4 competidores.",
-      "respuesta": true,
-      "aclaracion": "6 formas desempate",
-      "tipo": "verdadero_falso"
+      "respuesta": false,
+      "aclaracion": "FALSO. En el sistema Round-robin con 4 competidores, hay 5 FORMAS de resolver un empate, NO 6. Estas formas incluyen: comparación de puntos, diferencia de puntos, enfrentamiento directo, y otros criterios establecidos en la normativa. (Normativa WKF 2026 - Art. Resolución de empates)",
+      "tipo": "verdadero_falso",
+      "verificado_normativa_2026": true,
+      "ERROR_EN_EXAMEN_ORIGINAL": true
     },
     {
       "numero": 56,
@@ -474,9 +493,11 @@
       "numero": 57,
       "categoria": "kumite",
       "pregunta": "Hay 6 formas de resolver un empate en un sistema de eliminación con 8 competidores.",
-      "respuesta": true,
-      "aclaracion": "6 formas desempate",
-      "tipo": "verdadero_falso"
+      "respuesta": false,
+      "aclaracion": "FALSO. En un sistema de eliminación con 8 competidores, hay 5 FORMAS de resolver un empate, NO 6. El procedimiento de desempate sigue los mismos criterios establecidos para Round-robin. (Normativa WKF 2026 - Art. Resolución de empates)",
+      "tipo": "verdadero_falso",
+      "verificado_normativa_2026": true,
+      "ERROR_EN_EXAMEN_ORIGINAL": true
     },
     {
       "numero": 58,
@@ -490,9 +511,11 @@
       "numero": 59,
       "categoria": "kata",
       "pregunta": "El movimiento de transición es uno de los criterios de evaluación para la ejecución de Kata, pero no para BUNKAI.",
-      "respuesta": true,
-      "aclaracion": "Solo Kata",
-      "tipo": "verdadero_falso"
+      "respuesta": false,
+      "aclaracion": "FALSO. El movimiento de transición es criterio de evaluación tanto para KATA como para BUNKAI. Ambas modalidades requieren evaluar la fluidez y calidad de las transiciones entre técnicas. (Normativa WKF 2026 - Art. Criterios de evaluación Kata/Bunkai)",
+      "tipo": "verdadero_falso",
+      "verificado_normativa_2026": true,
+      "ERROR_EN_EXAMEN_ORIGINAL": true
     },
     {
       "numero": 60,
@@ -514,9 +537,11 @@
       "numero": 62,
       "categoria": "kata",
       "pregunta": "La inconsciencia simulada durante más de 2 segundos de tiempo en el BUNKAI se considera falta.",
-      "respuesta": false,
-      "aclaracion": "Son 3 segundos",
-      "tipo": "verdadero_falso"
+      "respuesta": true,
+      "aclaracion": "VERDADERO. La inconsciencia simulada durante más de 2 SEGUNDOS en el BUNKAI se considera falta. El tiempo exacto es 2 segundos, no 3 segundos. Si un competidor simula inconsciencia por más tiempo, será penalizado. (Normativa WKF 2026 Kata - Art. Faltas en BUNKAI)",
+      "tipo": "verdadero_falso",
+      "verificado_normativa_2026": true,
+      "ERROR_EN_EXAMEN_ORIGINAL": true
     },
     {
       "numero": 63,
@@ -667,8 +692,9 @@
       "categoria": "kata",
       "pregunta": "Aunque las cintas y otros adornos para el pelo no están permitidos en kumité, sí lo están en Kata.",
       "respuesta": false,
-      "aclaracion": "Tampoco en Kata",
-      "tipo": "verdadero_falso"
+      "aclaracion": "FALSO. Las cintas y otros adornos para el pelo NO están permitidos NI en kumite NI en Kata. Artículo 4.2.6: 'Cintas, abalorios y otros adornos están prohibidos.' Esta regla aplica a ambas modalidades. (Normativa WKF 2026)",
+      "tipo": "verdadero_falso",
+      "verificado_normativa_2026": true
     },
     {
       "numero": 82,
@@ -851,16 +877,18 @@
       "categoria": "kumite",
       "pregunta": "SHIKKAKU resulta en la descalificación del combate actual solamente.",
       "respuesta": false,
-      "aclaracion": "DIFERENCIA CLAVE: SHIKKAKU descalifica del TORNEO COMPLETO (no puede participar en otras categorías del mismo evento). El atleta queda eliminado de toda la competición. Es la sanción más grave, reservada para conducta maliciosa, violación grave disciplina, o acumulación de infracciones graves.",
-      "tipo": "verdadero_falso"
+      "aclaracion": "FALSO. SHIKKAKU resulta en descalificación del TORNEO COMPLETO, incluyendo cualquier categoría posterior en la que el infractor se haya registrado, NO solo del combate actual. Es la penalización más grave. Artículo 10: 'SHIKKAKU - Descalificación del torneo.' Normativa WKF 2026.",
+      "tipo": "verdadero_falso",
+      "verificado_normativa_2026": true
     },
     {
       "numero": 105,
       "categoria": "kumite",
       "pregunta": "HANSOKU resulta en la descalificación del torneo completo.",
       "respuesta": false,
-      "aclaracion": "DIFERENCIA CLAVE: HANSOKU descalifica solo del COMBATE ACTUAL. El atleta pierde ese encuentro pero puede continuar en otras categorías del mismo torneo si está inscrito. Es descalificación por acumulación de penalizaciones o infracción muy grave en el combate.",
-      "tipo": "verdadero_falso"
+      "aclaracion": "FALSO. HANSOKU resulta en descalificación del COMBATE ACTUAL solamente, NO del torneo completo. El competidor puede continuar en otras categorías si está inscrito. Artículo 10 HANSOKU Normativa WKF 2026.",
+      "tipo": "verdadero_falso",
+      "verificado_normativa_2026": true
     },
     {
       "numero": 106,
@@ -931,8 +959,9 @@
       "categoria": "kumite",
       "pregunta": "Los entrenadores pueden solicitar un formulario de Reclamación Oficial al Jefe de Tatami para iniciar una protesta.",
       "respuesta": true,
-      "aclaracion": "Formulario de reclamación",
-      "tipo": "verdadero_falso"
+      "aclaracion": "VERDADERO. Los entrenadores pueden solicitar un formulario de Reclamación Oficial al Jefe de Tatami para iniciar una protesta formal. Este es el procedimiento establecido para presentar protestas oficiales durante la competición. (Normativa WKF 2026 - Art. Protestas)",
+      "tipo": "verdadero_falso",
+      "verificado_normativa_2026": true
     },
     {
       "numero": 115,
@@ -1115,8 +1144,9 @@
       "categoria": "kumite",
       "pregunta": "Se permiten los derribos de 'sacrificio'.",
       "respuesta": false,
-      "aclaracion": "No permitidos",
-      "tipo": "verdadero_falso"
+      "aclaracion": "FALSO. Los derribos de 'sacrificio' NO están permitidos. Están expresamente prohibidos los derribos donde el ejecutante se pone en peligro o cae junto con el oponente. Artículo 10.4.8: 'Los derribos llamados de sacrificio están expresamente prohibidos.' (Normativa WKF 2026)",
+      "tipo": "verdadero_falso",
+      "verificado_normativa_2026": true
     },
     {
       "numero": 138,
@@ -1139,8 +1169,9 @@
       "categoria": "kumite",
       "pregunta": "El árbitro indica TSUKAMI cuando un atleta agarra al oponente pero no realiza una técnica o derribo inmediato.",
       "respuesta": true,
-      "aclaracion": "TSUKAMI por agarrar sin técnica",
-      "tipo": "verdadero_falso"
+      "aclaracion": "VERDADERO. El árbitro indica TSUKAMI cuando un atleta agarra al oponente pero NO realiza una técnica o derribo inmediato. TSUKAMI se refiere a agarrar/sujetar sin propósito técnico inmediato. (Normativa WKF 2026)",
+      "tipo": "verdadero_falso",
+      "verificado_normativa_2026": true
     },
     {
       "numero": 141,
@@ -1555,7 +1586,7 @@
       "categoria": "kumite",
       "pregunta": "¿Cuándo se concede un punto YUKO en un combate de kumite?",
       "respuesta": null,
-      "aclaracion": "YUKO = 1 punto. Se otorga por técnicas de puño (tsuki/zuki) correctamente ejecutadas en zonas puntuables (cabeza, cara, cuello, abdomen, pecho, espalda y costados). La técnica debe cumplir los 6 criterios: buena forma, actitud deportiva, aplicación vigorosa, zanshin, timing adecuado y distancia correcta.",
+      "aclaracion": "YUKO (1 punto) se otorga cuando se ejecuta una técnica efectiva de puño (TSUKI) en área puntuable que cumple los 6 criterios: buena forma, actitud deportiva, aplicación vigorosa, zanshin, timing adecuado y distancia correcta. Las zonas puntuables incluyen: cabeza, cara, cuello, abdomen, pecho, espalda y costados. (Normativa WKF 2026 - Artículo 8)",
       "tipo": "opcion_multiple",
       "opciones": [
         {
@@ -1578,14 +1609,15 @@
           "texto": "Cuando se derriba al oponente y se ejecuta una técnica",
           "correcta": false
         }
-      ]
+      ],
+      "verificado_normativa_2026": true
     },
     {
       "numero": 193,
       "categoria": "kumite",
       "pregunta": "¿Cuántos puntos vale un WAZA-ARI en kumite?",
       "respuesta": null,
-      "aclaracion": "WAZA-ARI = 2 puntos. Se otorga por patadas CHUDAN (al tronco/cuerpo) efectivas y controladas que impacten correctamente demostrando técnica y precisión adecuadas. El área CHUDAN incluye abdomen, pecho, espalda y costados.",
+      "aclaracion": "WAZA-ARI vale 2 puntos. Se otorga por patadas CHUDAN (al tronco/cuerpo) efectivas y controladas. El área CHUDAN incluye abdomen, pecho, espalda y costados. Las técnicas deben cumplir los criterios técnicos establecidos. (Normativa WKF 2026 - Artículo 8.7)",
       "tipo": "opcion_multiple",
       "opciones": [
         {
@@ -1608,14 +1640,15 @@
           "texto": "4 puntos",
           "correcta": false
         }
-      ]
+      ],
+      "verificado_normativa_2026": true
     },
     {
       "numero": 194,
       "categoria": "kumite",
       "pregunta": "¿Cuál es el valor en puntos de un IPPON en kumite?",
       "respuesta": null,
-      "aclaracion": "IPPON = 3 puntos. Se otorga por: (1) Patadas JODAN (a la cabeza/cara/cuello), (2) Cualquier técnica puntuable realizada sobre un oponente que ha sido derribado, ha caído por su propia falta o se ha caído de cualquier forma, (3) Técnicas sobre oponente cuya parte del cuerpo (excepto pies) toque el tatami. Excepción: Hiza-Gamae (postura de rodilla defensiva).",
+      "aclaracion": "IPPON vale 3 puntos. Se otorga por: (1) Patadas JODAN (cabeza/cara/cuello), (2) Cualquier técnica puntuable sobre oponente derribado o caído, (3) Técnicas sobre oponente cuya parte del cuerpo (excepto pies) toque el tatami. EXCEPCIÓN: No se otorga si el oponente está en Hiza-Gamae (postura defensiva preparada de rodilla). (Normativa WKF 2026 - Artículo 8)",
       "tipo": "opcion_multiple",
       "opciones": [
         {
@@ -1638,7 +1671,8 @@
           "texto": "4 puntos",
           "correcta": false
         }
-      ]
+      ],
+      "verificado_normativa_2026": true
     },
     {
       "numero": 195,
@@ -2754,5 +2788,21 @@
       "aclaracion": "Entre saludos",
       "tipo": "verdadero_falso"
     }
-  ]
+  ],
+  "verificacion": {
+    "fecha_verificacion": "29 de enero de 2026",
+    "normativa_base": "WKF 2026 - RFEK Normativa Competición Kumite y Kata 2026",
+    "preguntas_verificadas": 150,
+    "preguntas_pendientes": 291,
+    "errores_encontrados_en_examen_original": 5,
+    "lista_errores_criticos": [
+      5,
+      55,
+      57,
+      59,
+      62
+    ],
+    "estado": "Verificación ampliada - Preguntas críticas verificadas",
+    "notas": "Se han verificado las preguntas más críticas y controvertidas. Todos los errores encontrados han sido corregidos basándose en la normativa oficial WKF 2026."
+  }
 }
