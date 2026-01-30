@@ -627,9 +627,11 @@
       "numero": 73,
       "categoria": "kata",
       "pregunta": "Si el cinturón del competidor se cae durante la ejecución del Kata, el competidor será descalificado.",
-      "respuesta": false,
-      "aclaracion": "No descalificación",
-      "tipo": "verdadero_falso"
+      "respuesta": true,
+      "aclaracion": "VERDADERO. Si el cinturón del competidor se cae durante la ejecución del Kata, el competidor SERÁ DESCALIFICADO.\n\nArtículo: Causas de Descalificación en Kata\nPunto 7: \"Caída del cinturón durante la actuación.\"\n\nEsta es una de las 10 causas de descalificación automática en competiciones de Kata junto con:\n1. No anunciar el Kata o anunciar uno equivocado\n2. No hacer el saludo\n3. No iniciar mirando a los Jueces\n4. Pérdida total del equilibrio o caída\n5. Clara pausa o parada\n6. Omitir o agregar movimientos\n7. **Caída del cinturón** ← DESCALIFICACIÓN\n8. Exceder 5 minutos (Kata + Bunkai)\n9. Técnica tijera cuello en Bunkai\n10. No seguir instrucciones (SHIKKAKU)\n\n(Normativa WKF 2026 KATA - Página 15 - Artículo Causas de Descalificación)",
+      "tipo": "verdadero_falso",
+      "verificado_normativa_2026": true,
+      "ERROR_EN_EXAMEN_ORIGINAL": true
     },
     {
       "numero": 74,
@@ -2798,13 +2800,14 @@
     "normativa_base": "WKF 2026 - RFEK Normativa Competición Kumite y Kata 2026",
     "preguntas_verificadas": 150,
     "preguntas_pendientes": 291,
-    "errores_encontrados_en_examen_original": 6,
+    "errores_encontrados_en_examen_original": 7,
     "lista_errores_criticos": [
       5,
       55,
       57,
       59,
       62,
+      73,
       174
     ],
     "estado": "Verificación ampliada - Preguntas críticas verificadas",
