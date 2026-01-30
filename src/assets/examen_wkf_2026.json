@@ -1894,9 +1894,11 @@
       "numero": 202,
       "categoria": "kumite",
       "pregunta": "Es obligación del supervisor del encuentro asegurarse antes de cada encuentro o combate de que los atletas llevan el equipamiento homologado.",
-      "respuesta": true,
-      "aclaracion": "Obligación supervisor",
-      "tipo": "verdadero_falso"
+      "respuesta": false,
+      "aclaracion": "FALSO. NO es obligación del Tatami Manager, sino de los ASISTENTES DE KANSA (o de KANSA si no hay asistentes).\n\nNormativa WKF 2026 KUMITE - Página 14:\n\n\"Antes del inicio de cada encuentro, los ASISTENTES DE KANSA se asegurarán de que los Competidores tengan la equipación y Karategi de acuerdo con las reglas de competición de la WKF. En competiciones cuando no haya Asistentes del Kansa, es responsabilidad de KANSA garantizar que el equipo está de acuerdo con las reglas antes de cada encuentro.\"\n\nIMPORTANTE: La responsabilidad es de:\n1º - Asistentes de KANSA (si están presentes)\n2º - KANSA (si NO hay asistentes)\n❌ NO es responsabilidad del Tatami Manager\n\n(Normativa WKF 2026 KUMITE - Página 14 - Artículo Verificación de Equipamiento)",
+      "tipo": "verdadero_falso",
+      "verificado_normativa_2026": true,
+      "ERROR_EN_EXAMEN_ORIGINAL": true
     },
     {
       "numero": 203,
@@ -2800,7 +2802,7 @@
     "normativa_base": "WKF 2026 - RFEK Normativa Competición Kumite y Kata 2026",
     "preguntas_verificadas": 150,
     "preguntas_pendientes": 291,
-    "errores_encontrados_en_examen_original": 7,
+    "errores_encontrados_en_examen_original": 8,
     "lista_errores_criticos": [
       5,
       55,
@@ -2808,7 +2810,8 @@
       59,
       62,
       73,
-      174
+      174,
+      202
     ],
     "estado": "Verificación ampliada - Preguntas críticas verificadas",
     "notas": "Se han verificado las preguntas más críticas y controvertidas. Todos los errores encontrados han sido corregidos basándose en la normativa oficial WKF 2026."
