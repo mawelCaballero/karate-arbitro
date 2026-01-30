@@ -951,8 +951,9 @@
       "categoria": "kumite",
       "pregunta": "Los entrenadores deben levantar la tarjeta de revisión antes de que comience la revisión para mantener su derecho.",
       "respuesta": true,
-      "aclaracion": "Tarjeta antes de revisión",
-      "tipo": "verdadero_falso"
+      "aclaracion": "VERDADERO. Según Artículo 14.3 de la Normativa WKF 2026 sobre Revisión de Video:\n\n\"Si un entrenador muestra la tarjeta para la revisión de video y el otro entrenador desea una revisión del mismo momento, el segundo entrenador debe levantar su tarjeta ANTES de que comience la revisión para NO PERDER SU DERECHO a solicitar una revisión de video en esa instancia. La revisión del video se considera iniciada cuando el Árbitro hace el gesto prescrito.\"\n\nEs decir, si el segundo entrenador NO levanta la tarjeta ANTES de que el árbitro haga el gesto de inicio de revisión, PIERDE su derecho a solicitar revisión de ese momento específico.\n\n(Normativa WKF 2026 - Artículo 14.3 Revisión de Video)",
+      "tipo": "verdadero_falso",
+      "verificado_normativa_2026": true
     },
     {
       "numero": 114,
@@ -1426,8 +1427,10 @@
       "categoria": "kumite",
       "pregunta": "Cuando queden menos de 15 segundos de combate y el atleta que va perdiendo, intentando desesperadamente igualar, se sale del área (JOGAI), se le dará un mínimo de HANSOKU-CHUI.",
       "respuesta": false,
-      "aclaracion": "Esta pregunta es confusa en el documento",
-      "tipo": "verdadero_falso"
+      "aclaracion": "FALSO. Según la normativa WKF 2026, NO se puede sancionar por JOGAI durante ATO SHIBARAKU (últimos 15 segundos).\n\nArtículo 10.1 - Normativa WKF 2026:\n\"Durante ATO SHIBARAKU (últimos 15 segundos), no se puede sancionar por JOGAI.\"\n\nPor lo tanto, la afirmación \"se le dará un mínimo de HANSOKU-CHUI\" es FALSA porque:\n1. Durante los últimos 15 segundos NO se sanciona JOGAI\n2. El árbitro no puede detener el combate por JOGAI en este período crítico\n\nIMPORTANTE - Categorías de penalización en WKF 2026:\n- CHUKOKU (Advertencia)\n- HANSOKU-CHUI (Descalificación con advertencia)\n- HANSOKU (Descalificación del combate)\n- SHIKKAKU (Descalificación del torneo)\n\nNOTA: En la normativa 2026 NO existe KEIKOKU como categoría de penalización.\n\n(Normativa WKF 2026 - Artículo 10.1 Área de competición JOGAI)",
+      "tipo": "verdadero_falso",
+      "verificado_normativa_2026": true,
+      "PREGUNTA_CONFUSA": true
     },
     {
       "numero": 173,
@@ -1441,9 +1444,10 @@
       "numero": 174,
       "categoria": "kumite",
       "pregunta": "Las técnicas que se realicen sobre el omóplato pueden puntuar.",
-      "respuesta": true,
-      "aclaracion": "Omóplato puede puntuar",
-      "tipo": "verdadero_falso"
+      "respuesta": false,
+      "aclaracion": "FALSO. Las técnicas sobre el OMÓPLATO NO pueden puntuar. El omóplato está en la zona de los HOMBROS que están EXCLUIDOS de las áreas puntuables. Artículo 8.4: 'Las áreas de puntuación son el cuerpo por encima de la pelvis, hasta e incluyendo la clavícula (CHUDAN), excluyendo los propios hombros.' El omóplato forma parte de la zona del hombro. (Normativa WKF 2026)",
+      "tipo": "verdadero_falso",
+      "ERROR_EN_EXAMEN_ORIGINAL": true
     },
     {
       "numero": 175,
@@ -2794,13 +2798,14 @@
     "normativa_base": "WKF 2026 - RFEK Normativa Competición Kumite y Kata 2026",
     "preguntas_verificadas": 150,
     "preguntas_pendientes": 291,
-    "errores_encontrados_en_examen_original": 5,
+    "errores_encontrados_en_examen_original": 6,
     "lista_errores_criticos": [
       5,
       55,
       57,
       59,
-      62
+      62,
+      174
     ],
     "estado": "Verificación ampliada - Preguntas críticas verificadas",
     "notas": "Se han verificado las preguntas más críticas y controvertidas. Todos los errores encontrados han sido corregidos basándose en la normativa oficial WKF 2026."

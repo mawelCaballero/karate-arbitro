@@ -19,8 +19,13 @@ interface QuestionOption {
   correct: boolean;
 }
 
-const TOTAL_QUESTIONS = 20;
+const TOTAL_QUESTIONS = 30;
 const EXAM_ASSET_URL = './examen_wkf_2026.json';
+const normalizeQuestionText = (text: string) =>
+  text
+    .trim()
+    .toLowerCase()
+    .replace(/\s+/g, ' ');
 
 type RawCategory = 'kata' | 'kumite' | 'kata_parakarate' | 'parakarate';
 
@@ -67,6 +72,8 @@ export class App implements OnInit {
   protected readonly examQuestions = signal<Question[]>([]);
   protected readonly currentIndex = signal(0);
   protected readonly answers = signal<Record<number, boolean | string | null>>({});
+  protected readonly usedQuestionIds = signal<Set<number>>(new Set());
+  protected readonly usedQuestionTexts = signal<Set<string>>(new Set());
   protected readonly isAnimating = signal(false);
   protected readonly swipeDirection = signal<'left' | 'right' | ''>('');
   protected readonly enterDirection = signal<'left' | 'right' | ''>('');
@@ -80,9 +87,14 @@ export class App implements OnInit {
   protected readonly availableQuestions = computed(() =>
     this.questionBank().filter((question) => this.selectedCategories().includes(question.category)),
   );
+  protected readonly uniqueAvailableQuestions = computed(() =>
+    this.uniqueByText(this.availableQuestions()),
+  );
 
   protected readonly canStart = computed(
-    () => this.selectedCategories().length > 0 && this.availableQuestions().length >= TOTAL_QUESTIONS,
+    () =>
+      this.selectedCategories().length > 0 &&
+      this.uniqueAvailableQuestions().length >= TOTAL_QUESTIONS,
   );
 
   protected readonly currentQuestion = computed(
@@ -144,7 +156,29 @@ export class App implements OnInit {
     if (!this.canStart()) {
       return;
     }
-    const picked = this.shuffleArray(this.availableQuestions()).slice(0, TOTAL_QUESTIONS);
+    const used = this.usedQuestionIds();
+    const usedTexts = this.usedQuestionTexts();
+    const available = this.uniqueAvailableQuestions();
+    let pool = available.filter(
+      (question) =>
+        !used.has(question.id) && !usedTexts.has(normalizeQuestionText(question.text)),
+    );
+    if (pool.length < TOTAL_QUESTIONS) {
+      pool = available;
+      this.usedQuestionIds.set(new Set());
+      this.usedQuestionTexts.set(new Set());
+    }
+    const picked = this.shuffleArray(pool).slice(0, TOTAL_QUESTIONS);
+    this.usedQuestionIds.update((ids) => {
+      const next = new Set(ids);
+      picked.forEach((question) => next.add(question.id));
+      return next;
+    });
+    this.usedQuestionTexts.update((texts) => {
+      const next = new Set(texts);
+      picked.forEach((question) => next.add(normalizeQuestionText(question.text)));
+      return next;
+    });
     const freshAnswers: Record<number, boolean | string | null> = {};
     picked.forEach((question) => {
       freshAnswers[question.id] = null;
@@ -296,6 +330,18 @@ export class App implements OnInit {
       return userAnswer === question.answer;
     }
     return userAnswer === question.answer;
+  }
+
+  private uniqueByText(questions: Question[]) {
+    const seen = new Set<string>();
+    return questions.filter((question) => {
+      const key = normalizeQuestionText(question.text);
+      if (seen.has(key)) {
+        return false;
+      }
+      seen.add(key);
+      return true;
+    });
   }
 
   private goToIndex(index: number, direction: 'left' | 'right') {
